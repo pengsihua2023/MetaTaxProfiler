@@ -1,0 +1,19 @@
+llnl_66ce4dde	Shigella phage SfIV	1407493	607	0.0001	100.0	NA	NA
+llnl_66ce4dde	Gihfavirus pelohabitans	2844652	392	0.0001	64.57990115321252	NA	NA
+llnl_66ce4dde	Kinglevirus lutadaptatum	2845070	284	0.0001	46.787479406919275	NA	NA
+llnl_66ce4dde	Punavirus RCS47	2560452	252	0.0001	41.5156507413509	NA	NA
+llnl_66ce4dde	Menderavirus mendera	2846389	203	0.0	33.44316309719934	NA	NA
+llnl_66ce4dde	Sawaravirus WGPS2	2844234	169	0.0	27.841845140032948	NA	NA
+llnl_66ce4dde	Inibicvirus 613R3	3429951	161	0.0	26.523887973640857	NA	NA
+llnl_66ce4dde	Salmonella phage SEN22	1647458	152	0.0	25.041186161449755	NA	NA
+llnl_66ce4dde	Casadabanvirus R24	3059848	128	0.0	21.087314662273474	NA	NA
+llnl_66ce4dde	Citricivirus chongqinense	3059891	107	0.0	17.627677100494232	NA	NA
+llnl_66ce4dde	Radostvirus ev099	2844247	104	0.0	17.133443163097198	NA	NA
+llnl_66ce4dde	Vimunumvirus ST147VIM1phi71	2845097	103	0.0	16.968698517298186	NA	NA
+llnl_66ce4dde	Enterobacteria phage P4	10680	103	0.0	16.968698517298186	NA	NA
+llnl_66ce4dde	Pulverervirus PFR1	2170091	92	0.0	15.156507413509061	NA	NA
+llnl_66ce4dde	Punavirus P1	10678	85	0.0	14.00329489291598	NA	NA
+llnl_66ce4dde	Erskinevirus EaH2	2169883	82	0.0	13.509060955518946	NA	NA
+llnl_66ce4dde	Minunavirus Min1	2560595	77	0.0	12.685337726523887	NA	NA
+llnl_66ce4dde	Kumaovirus kumao	2956095	67	0.0	11.037891268533773	NA	NA
+Sample	Species	Taxonomy_ID	Assigned_Reads	Fraction	RPM	Genome_Length_bp	RPKM

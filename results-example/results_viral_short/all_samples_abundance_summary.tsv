@@ -1,0 +1,1088 @@
+Sample	Species	Taxonomy_ID	Assigned_Reads	Fraction	RPM	Genome_Length_bp	RPKM
+llnl_66ce4dde	Shigella phage SfIV	1407493	607	0.0001	100.0	NA	NA
+llnl_66ce4dde	Gihfavirus pelohabitans	2844652	392	0.0001	64.57990115321252	NA	NA
+llnl_66ce4dde	Kinglevirus lutadaptatum	2845070	284	0.0001	46.787479406919275	NA	NA
+llnl_66ce4dde	Punavirus RCS47	2560452	252	0.0001	41.5156507413509	NA	NA
+llnl_66ce4dde	Menderavirus mendera	2846389	203	0.0	33.44316309719934	NA	NA
+llnl_66ce4dde	Sawaravirus WGPS2	2844234	169	0.0	27.841845140032948	NA	NA
+llnl_66ce4dde	Inibicvirus 613R3	3429951	161	0.0	26.523887973640857	NA	NA
+llnl_66ce4dde	Salmonella phage SEN22	1647458	152	0.0	25.041186161449755	NA	NA
+llnl_66ce4dde	Casadabanvirus R24	3059848	128	0.0	21.087314662273474	NA	NA
+llnl_66ce4dde	Citricivirus chongqinense	3059891	107	0.0	17.627677100494232	NA	NA
+llnl_66ce4dde	Radostvirus ev099	2844247	104	0.0	17.133443163097198	NA	NA
+llnl_66ce4dde	Vimunumvirus ST147VIM1phi71	2845097	103	0.0	16.968698517298186	NA	NA
+llnl_66ce4dde	Enterobacteria phage P4	10680	103	0.0	16.968698517298186	NA	NA
+llnl_66ce4dde	Pulverervirus PFR1	2170091	92	0.0	15.156507413509061	NA	NA
+llnl_66ce4dde	Punavirus P1	10678	85	0.0	14.00329489291598	NA	NA
+llnl_66ce4dde	Erskinevirus EaH2	2169883	82	0.0	13.509060955518946	NA	NA
+llnl_66ce4dde	Minunavirus Min1	2560595	77	0.0	12.685337726523887	NA	NA
+llnl_66ce4dde	Kumaovirus kumao	2956095	67	0.0	11.037891268533773	NA	NA
+llnl_66ce4dde	Escherichia phage HK639	906669	60	0.0	9.884678747940692	NA	NA
+llnl_66ce4dde	Noxifervirus noxifer	2560671	59	0.0	9.71993410214168	NA	NA
+llnl_66ce4dde	Mieseafarmvirus RSL1	1980923	56	0.0	9.225700164744646	NA	NA
+llnl_66ce4dde	Polybotosvirus Atuph07	2560286	55	0.0	9.060955518945633	NA	NA
+llnl_66ce4dde	Gemsvirus gv5004652	2955946	55	0.0	9.060955518945633	NA	NA
+llnl_66ce4dde	Pumpernickelvirus pumpernickel	3432031	54	0.0	8.896210873146623	NA	NA
+llnl_66ce4dde	Myrnavirus phabba	3430982	54	0.0	8.896210873146623	NA	NA
+llnl_66ce4dde	Escherichia phage D6	2014434	52	0.0	8.566721581548599	NA	NA
+llnl_66ce4dde	Gilesvirus giles	1982151	51	0.0	8.40197693574959	NA	NA
+llnl_66ce4dde	Enterobacteria phage mEp390	1147158	49	0.0	8.072487644151565	NA	NA
+llnl_66ce4dde	Riverridervirus riverrider	2846672	48	0.0	7.907742998352553	NA	NA
+llnl_66ce4dde	Brussowvirus 20617	3059794	48	0.0	7.907742998352553	NA	NA
+llnl_66ce4dde	Cobrasixvirus cobrasix	3059893	47	0.0	7.742998352553542	NA	NA
+llnl_66ce4dde	Wellingtonvirus wellington	2734153	44	0.0	7.248764415156507	NA	NA
+llnl_66ce4dde	Wroclawvirus PA5oct	3060806	43	0.0	7.0840197693574956	NA	NA
+llnl_66ce4dde	Pandoravirus dulcis	1349409	43	0.0	7.0840197693574956	NA	NA
+llnl_66ce4dde	Wadgaonvirus wv5004651	2956672	42	0.0	6.919275123558484	NA	NA
+llnl_66ce4dde	Pandoravirus quercus	2107709	42	0.0	6.919275123558484	NA	NA
+llnl_66ce4dde	Gilgameshvirus gilgamesh	3429029	41	0.0	6.754530477759473	NA	NA
+llnl_66ce4dde	Myrnavirus myrna	2956212	41	0.0	6.754530477759473	NA	NA
+llnl_66ce4dde	Kwaitsingvirus HK544	2169923	41	0.0	6.754530477759473	NA	NA
+llnl_66ce4dde	Natevirus nate	3060406	39	0.0	6.42504118616145	NA	NA
+llnl_66ce4dde	Marienburgvirus JLK2012	2844207	38	0.0	6.260296540362439	NA	NA
+llnl_66ce4dde	Bertelyvirus SC	2734193	37	0.0	6.095551894563426	NA	NA
+llnl_66ce4dde	Acanthamoeba castellanii medusavirus	2080449	37	0.0	6.095551894563426	NA	NA
+llnl_66ce4dde	Poindextervirus rogue	2748760	36	0.0	5.930807248764415	NA	NA
+llnl_66ce4dde	Lambdavirus DE3	3430323	35	0.0	5.766062602965404	NA	NA
+llnl_66ce4dde	Omarvirus omar	2956237	34	0.0	5.601317957166392	NA	NA
+llnl_66ce4dde	Ralstonia phage RSP15	1785960	34	0.0	5.601317957166392	NA	NA
+llnl_66ce4dde	Phitrevirus phi3	2734069	33	0.0	5.43657331136738	NA	NA
+llnl_66ce4dde	Picornavirales Bu-3	1813613	32	0.0	5.271828665568369	NA	NA
+llnl_66ce4dde	Colossusvirus PW	2734195	32	0.0	5.271828665568369	NA	NA
+llnl_66ce4dde	Charybdisvirus scam3	2734102	30	0.0	4.942339373970346	NA	NA
+llnl_66ce4dde	Branisovskavirus Kc263	3059793	30	0.0	4.942339373970346	NA	NA
+llnl_66ce4dde	Pandoravirus inopinatum	1605721	30	0.0	4.942339373970346	NA	NA
+llnl_66ce4dde	Celiavirus celia	2955597	29	0.0	4.7775947281713345	NA	NA
+llnl_66ce4dde	Medeavirus medea1	3430767	29	0.0	4.7775947281713345	NA	NA
+llnl_66ce4dde	Immutovirus immuto	2955989	28	0.0	4.612850082372323	NA	NA
+llnl_66ce4dde	Trichoplusia ni ascovirus 2c	328615	27	0.0	4.448105436573312	NA	NA
+llnl_66ce4dde	Bertelyvirus BL9	2734192	27	0.0	4.448105436573312	NA	NA
+llnl_66ce4dde	Poushouvirus Poushou	2560396	27	0.0	4.448105436573312	NA	NA
+llnl_66ce4dde	Hiyaavirus hiyaa	2734239	26	0.0	4.283360790774299	NA	NA
+llnl_66ce4dde	Pandoravirus salinus	1349410	26	0.0	4.283360790774299	NA	NA
+llnl_66ce4dde	Neferthenavirus neferthena	2734261	26	0.0	4.283360790774299	NA	NA
+llnl_66ce4dde	Pawinskivirus PS119XW	3060524	26	0.0	4.283360790774299	NA	NA
+llnl_66ce4dde	Rhizobium phage RHEph10	1220717	26	0.0	4.283360790774299	NA	NA
+llnl_66ce4dde	Eceepunavirus EcP1	2844120	26	0.0	4.283360790774299	NA	NA
+llnl_66ce4dde	Eganvirus SW9	2846110	25	0.0	4.118616144975288	NA	NA
+llnl_66ce4dde	Unicornvirus unicorn	2956580	25	0.0	4.118616144975288	NA	NA
+llnl_66ce4dde	Phabquatrovirus PHB04	2734129	24	0.0	3.9538714991762767	NA	NA
+llnl_66ce4dde	Pandoravirus neocaledonia	2107708	24	0.0	3.9538714991762767	NA	NA
+llnl_66ce4dde	Kenyattavirus kv136	3060064	23	0.0	3.7891268533772653	NA	NA
+llnl_66ce4dde	Nickievirus nickie	2560688	23	0.0	3.7891268533772653	NA	NA
+llnl_66ce4dde	Agatevirus bobb	1910936	23	0.0	3.7891268533772653	NA	NA
+llnl_66ce4dde	Peduovirus fiAA91ss	2560457	22	0.0	3.6243822075782535	NA	NA
+llnl_66ce4dde	Appavirus appa	2734215	22	0.0	3.6243822075782535	NA	NA
+llnl_66ce4dde	Baikalvirus PaBG	2734089	22	0.0	3.6243822075782535	NA	NA
+llnl_66ce4dde	Ishigurovirus osborne	260149	22	0.0	3.6243822075782535	NA	NA
+llnl_66ce4dde	Mollymurvirus mollymur	3060390	22	0.0	3.6243822075782535	NA	NA
+llnl_66ce4dde	Enterobacteria phage phi80	10713	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Bongovirus bongo	1983750	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Oslovirus PA2	1981168	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Tsukamurella phage TPA4	1647476	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Sleepyheadvirus sleepyhead	2846061	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Eganvirus EtG	2734059	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Miltoncavirus PhiPA3	3060307	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Ceetrepovirus darwin	3427838	21	0.0	3.459637561779242	NA	NA
+llnl_66ce4dde	Oneupvirus oneup	1982560	20	0.0	3.2948929159802307	NA	NA
+llnl_66ce4dde	Wongtaivirus ECP1	2844189	20	0.0	3.2948929159802307	NA	NA
+llnl_66ce4dde	Glaedevirus gv2H10	2844173	20	0.0	3.2948929159802307	NA	NA
+llnl_66ce4dde	Ampunavirus RSPI1	2733590	20	0.0	3.2948929159802307	NA	NA
+llnl_66ce4dde	Chrysonvirus as5	2955700	20	0.0	3.2948929159802307	NA	NA
+llnl_66ce4dde	Enterobacteria phage phiP27	103807	20	0.0	3.2948929159802307	NA	NA
+llnl_66ce4dde	Cyvirus cyprinidallo3	3050271	19	0.0	3.1301482701812193	NA	NA
+llnl_66ce4dde	Chakrabartyvirus pf16	2560689	19	0.0	3.1301482701812193	NA	NA
+llnl_66ce4dde	Tresduoquattuorvirus YenM324	3060747	19	0.0	3.1301482701812193	NA	NA
+llnl_66ce4dde	Busanvirus ACP17	2560261	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Fadolivirus algeromassiliense	3060017	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Betabaculovirus chofumiferanae	3051997	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Bronvirus bron	3427627	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Cuauhnahuacvirus Y65	3059911	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Punavirus SJ46	2560732	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Salmonella phage SPN3UB	1147140	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Borockvirus brock	2846393	18	0.0	2.9654036243822075	NA	NA
+llnl_66ce4dde	Daredevilvirus daredevil	2734229	17	0.0	2.800658978583196	NA	NA
+llnl_66ce4dde	Bievrevirus bv4A7	2844174	17	0.0	2.800658978583196	NA	NA
+llnl_66ce4dde	Ludhianavirus LAh10	3060173	17	0.0	2.800658978583196	NA	NA
+llnl_66ce4dde	Anchaingvirus anchaing	2846038	17	0.0	2.800658978583196	NA	NA
+llnl_66ce4dde	Dolmabahcevirus turkishdelight	3428314	17	0.0	2.800658978583196	NA	NA
+llnl_66ce4dde	Krompvirus kromp	3430283	16	0.0	2.6359143327841843	NA	NA
+llnl_66ce4dde	Donellivirus gee	1084719	16	0.0	2.6359143327841843	NA	NA
+llnl_66ce4dde	Teubervirus Q1	2845481	16	0.0	2.6359143327841843	NA	NA
+llnl_66ce4dde	Citexvirus dobby	2734058	16	0.0	2.6359143327841843	NA	NA
+llnl_66ce4dde	Lilmcdreamyvirus lilmcdreamy	2956123	16	0.0	2.6359143327841843	NA	NA
+llnl_66ce4dde	Oneupvirus brutongaster	2734263	16	0.0	2.6359143327841843	NA	NA
+llnl_66ce4dde	Finkelvirus finkel	3428776	16	0.0	2.6359143327841843	NA	NA
+llnl_66ce4dde	Stanholtvirus E125	180504	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Dendoorenvirus RG2014	2844071	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Watanabevirus wv3521	2845126	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Gaiavirus gaia	1982148	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Jouyvirus ev017	2844245	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Cronobacter phage ENT47670	984186	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Salmonella phage ST64B	175950	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Cuauhtlivirus mEpX1	2169927	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Matervirus mater	2560332	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Nodensvirus spm2	2734126	15	0.0	2.471169686985173	NA	NA
+llnl_66ce4dde	Hiroshimavirus PPpW3	3060034	14	0.0	2.3064250411861615	NA	NA
+llnl_66ce4dde	Cronobacter phage ENT39118	984175	14	0.0	2.3064250411861615	NA	NA
+llnl_66ce4dde	Enterobacteria phage SfV	55884	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Piscesmortuivirus LPM4	3060630	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Abidjanvirus PaMx11	3425958	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Shenzhenivirus sszbm1	3060701	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Cinqassovirus aeh1	227470	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Cyamitesvirus I16	3059912	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Chrysochromulina ericina virus	455364	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Cotonvirus japonicum	3059904	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Pandoravirus macleodensis	2107707	13	0.0	2.1416803953871497	NA	NA
+llnl_66ce4dde	Aokuangvirus SCBWM1	2734084	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Eganvirus PsP3	12407	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Asteriusvirus PBECO4	2560463	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Ravarandavirus kac68v161	2845690	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Ravinvirus N15	40631	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Mollivirus sibericum	1678078	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Tulanevirus aes12	1921530	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Pseudomonas phage YMC11/07/P54_PAE_BP	1777064	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Shangdongvirus ply2008005c	3432383	12	0.0	1.9769357495881383	NA	NA
+llnl_66ce4dde	Gegevirus ST437OXA245phi41	2955944	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Rhodococcus phage REQ1	1109712	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Chlorovirus heliozoae	322019	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Sarumanvirus bcepsaruman	2843896	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Erskinevirus asesino	2169882	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Elveevirus 4LV2017	2734062	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Hollowayvirus H66	1273707	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Certrevirus CR9	1914899	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Sarumanvirus bcepsauron	2843897	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Hadassahvirus pht2	2843638	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Brucella phage BiPBO1	1718278	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Pectobacterium phage ZF40	1127516	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Richievirus auxilium	3060667	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Rogerhendrixvirus hendrix	2734268	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Delepquintavirus DLP5	2560782	11	0.0	1.8121911037891267	NA	NA
+llnl_66ce4dde	Dagavirus ST13OXA48phi121	2955736	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Varicellovirus suidalpha1	3050355	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Mylasvirus persius	1914020	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Machinavirus machina	2169990	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Lederbergvirus BTP1	1934252	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Muldoonvirus muldoon	2846182	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Getalongvirus bentherdunthat	2734199	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Acinetobacter phage YMC13/03/R2096	1560342	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Enterobacteria phage ES18	101570	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Vanleevirus vanlee	3433098	10	0.0	1.6474464579901154	NA	NA
+llnl_66ce4dde	Readingvirus MR15	3432142	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Rauchvirus BPP1	194699	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Harrisonburgvirus persinger	2955983	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Likavirus lannister	1982889	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Rhodovulum phage RS1	754056	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Only Syngen Nebraska virus 5	1917232	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Faustvirus faust	3059994	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Liefievirus paito	2956114	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Pylasvirus pylas	2845095	9	0.0	1.4827018121911038	NA	NA
+llnl_66ce4dde	Stormageddonvirus Stormageddon	2956470	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Camtrevirus S3501	2843789	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Eneladusvirus Yen904	2560849	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Luchadorvirus gail	3430508	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Coatlandelriovirus RSP	2955710	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Peduovirus pro483	2560459	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Peduovirus STYP1	2939038	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Eganvirus ev186	29252	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Sedonavirus tusconh	2956426	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Cuauhnahuacvirus TM30	3059910	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Nerrivikvirus srim2	2734125	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Jacevirus jace	2734240	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Godonkavirus godonK	2734237	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Powvirus S08C41	2733950	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Poindextervirus BL10	2734196	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Ampunavirus BpAMP1	2733589	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Kwaitsingvirus HK446	2169921	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Shapirovirus cbk	1204537	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Sinorhizobium phage phiLM21	1524882	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Arsenicumvirus M163	3059738	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Parapoxvirus bovinestomatitis	3431388	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Tokyovirus A1	1826170	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Chlorovirus conductrix	3427928	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Alphasphaerolipovirus serpentinense	2955318	8	0.0	1.3179571663920921	NA	NA
+llnl_66ce4dde	Fromanvirus trixie	1993867	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Caelumvirus issmi	2955567	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Varicellovirus caprinealpha1	3050252	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Megavirus powaiense	3060302	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Manovirus Mano	2956185	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Derbicusvirus derbicus	2734104	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Cukevirus cuke	2845649	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Pradovirus f30	1985735	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Eneladusvirus BF	2560751	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Xoxocotlavirus X228B	3060807	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Tequatrovirus mlf4	2956501	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Brujitavirus babsiella	1089115	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Deseoctovirus DS8	2955752	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Betterkatzvirus betterkatz	2560485	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Kehishuvirus splanchnicus	2956054	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Typhavirus typha	2956575	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Parlovirus parlo	2846185	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Haihevirus PP9W2	3429152	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Alphabaculovirus agipsilonis	3047352	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Bcepmuvirus bcepMu	264729	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Paadamvirus RHEph01	2733939	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Brigitvirus brigit	2734096	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Nanhaivirus D5C	2560407	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Fuzanglongvirus ZL12	3428900	7	0.0	1.1532125205930808	NA	NA
+llnl_66ce4dde	Bantamvirus bantam	2560484	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Siftrevirus SF3	3060706	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Neptunevirus srim18	2734121	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Erwinia phage vB_EamM_Caitlin	1883379	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Keylargovirus JL001	279383	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Sixamavirus sixama	3060713	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Siaravirus siara	3060703	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Vojvodinavirus CN2	3433288	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Puppervirus Pupper	2956343	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Saguarovirus saguaro	2956386	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Yushanluvirus satich	3060825	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Coopervirus cooper	1983117	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Bippervirus bipper	2955496	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Liefievirus taheera	2956116	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Gualtarvirus mp1	2955964	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Angelvirus px29	2955358	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Simplexvirus macacinealpha1	3050305	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Pokkenvirus piffle	3060635	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Aresaunavirus RsoM1USA	2079257	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Skogvirus Skog	2956463	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Anayavirus nibb	2955346	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Burkholderia phage KS9	335797	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Pseudomonas phage MD8	1868596	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Enterobacteria phage HK225	1147144	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Lactococcus phage PLgT-1	1815955	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Salmonella phage 118970_sal3	1813771	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Varunavirus BUCT194	3060796	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Beenievirus easley	3059766	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Pankowvirus YYZ2008	2844135	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Tequatrovirus ozark	2844216	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Marfavirus F48	2845079	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Felsduovirus SEN8	2734064	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Backyardiganvirus noelle	2955405	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Zetavirus zeta1847	2734292	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Primolicivirus Pf8	2956337	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Aurodevirus hiberniae	2955382	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Trinavirus trina	2560705	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Crocodylidpoxvirus nilecrocodilepox	3428121	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Eganvirus BIS20	3059976	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Nymphadoravirus thankyoujordi	3060431	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Eganvirus SEN1	2734060	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Schmidtvirus schmidt	2956401	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Acinetobacter phage vB_AbaM_Acibel004	1481186	6	0.0	0.9884678747940692	NA	NA
+llnl_66ce4dde	Bridgettevirus peas	2734226	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Pseudomonas phage Lu11	1161927	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Enterobacteria phage mEp237	1147151	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Stenotrophomonas phage S1	573591	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Cheoctovirus SG4	3427890	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Antsirabevirus antsirabe	2955364	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Wodongavirus REQ3	3433490	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Citexvirus BR319A	2955705	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Peduovirus FSLSP004	3431429	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Goodmanvirus goodman	2734238	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Brunovirus SEN34	2560731	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Micavirus Mica	2956191	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Montyvirus stevefrench	2734258	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Cimandefvirus cimandef	2846040	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Wilnyevirus billnye	2560486	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Mycobacterium phage KayaCho	1340830	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Tomasvirus tomas	3060743	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Salmonella phage epsilon34	348058	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Xuanwuvirus xv520873	2844179	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Anayavirus curiosium	2955339	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Anayavirus yunkel11	2955353	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Zicotriavirus ZC08	2845968	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Jiangsuvirus pspyzu05	2956010	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Elephant endotheliotropic herpesvirus 4	548914	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Megavirus chilense	3060301	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Raleighvirus raleigh	2734267	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Schnabeltiervirus schnabeltier	2734276	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Mycobacterium phage Fredward	1354510	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Bristolvirus rhodeisland	2955536	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Fromanvirus perseus	1076136	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Atlauavirus tusconc8	2734085	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Colossusvirus colossus	2734194	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Simpcentumvirus Smp131	2734074	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Salmonella phage vB_SemP_Emek	1168548	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Simplexvirus saimiriinealpha1	3050348	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Nochtlivirus mEp235	2844138	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Anaposvirus socalone	2734083	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Chunghsingvirus P1201	3427939	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Varicellovirus cervidalpha2	3050260	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Mastadenovirus longumcaudae	3241429	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Lilbeanievirus lilbeanie	2956122	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Sanovirus sano	3432251	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Zedzedvirus zz1	2843640	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Elpedvirus LpeD	2845137	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Pylasvirus KpCHEMY26	2845089	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Vellamovirus syn1	2734151	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Santhisvirus reyja	3432254	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Silentrexvirus silentrx	3060710	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Bixzunavirus Bxz1	2006134	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Malagasyrosevirus malagasyrose	3430611	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Aceathervirus RM10	3425976	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Chidieberevirus chisanakitsune	3059874	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Hafyongvirus yong1	3429141	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Phrappuccinovirus phrappuccino	3431661	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Mydovirus mydo	2845940	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Amginevirus darthP	2955326	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Barnyardvirus barnyard	1982363	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Thonkovirus thonko	2956529	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Cinvestavvirus PaMx74	3427948	5	0.0	0.8237232289950577	NA	NA
+llnl_66ce4dde	Chymeravirus chymera	3427943	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Seahorsevirus seahorse	3060691	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Magiavirus magia	3060177	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Colneyvirus CDKM15	2843966	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Kratosvirus quantuckense	3060070	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Oceanusvirus kaneohense	3060432	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Kimonavirus kimona	2956059	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Sansavirus sansa	3432252	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Asteriusvirus av121Q	2560436	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Moumouvirus australiense	3080759	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Phikzvirus phiKZ	169683	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Bongovirus reindeer	2955514	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Yosifvirus yosif	2956707	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Yautsimvirus HK140	2844127	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Simplexvirus atelinealpha1	3050138	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Caelumvirus alvy	2955564	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Scyllavirus aitchnine	3060690	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Tedavirus A829	2841302	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Camvirus alsaber	2955572	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Lessievirus bcepmigl	1195073	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Karamvirus pg7	1913655	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Sugarlandvirus IME260	2560539	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Caulobacter virus Karma	1211641	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Cronobacter phage S13	1327935	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Lastavirus lasta	2845090	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Mimasvirus GAP32	2560400	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Gofduovirus GF2	2560409	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Kungbxnavirus pT24	2846436	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Commandariavirus commandaria	3428071	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Phabiovirus phabio	3060550	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Rahariannevirus raharianne	2846050	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Bowservirus bowser	2560487	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Leonardvirus melbins	2956112	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Donnerlittchenvirus donnerlittchenvirus	3428316	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Elvirus EL	1984787	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Henunavirus SNUABM01	2844165	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Bugaksanvirus R656	3427643	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Mydovirus Ro1	2846052	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Agricanvirus specialG	1984781	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Seoulvirus SPN3US	1984796	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Ericdabvirus ericdab	3059992	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Bosavirus Axl1	3427564	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Bigmanorsvirus bgmanors32	3059778	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Jerseyvirus JD01	3430047	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Grutrevirus GMA5	3060025	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Birdsnestvirus birdsnest	2955497	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Yaravirus brasiliense	2956705	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Peduovirus magyaro	2844258	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Klausavirus kburrousTX	2843725	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Salmonella phage SSU5	1177632	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Mythimna unipuncta nucleopolyhedrovirus	447897	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Alphafilamentovirus leboulardi	3426192	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Alphaorpheovirus massiliense	3426221	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Tequatrovirus zeen18	2846681	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Cimandefvirus Ggerry	2846046	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Baileybluvirus baileyblu	3059755	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Gordonia phage UmaThurman	1821563	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Mementomorivirus matzah	3430796	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Nevillevirus rabbitrun	3060414	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Bignuzvirus bignuz	1983736	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Ralstonia phage RSS30	1352227	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Baxterfoxvirus baxterfox	3426655	4	0.0	0.6589785831960461	NA	NA
+llnl_66ce4dde	Mycoplasma phage phiMFV1	280702	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Citexvirus phiCTX	35343	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Lahexavirus lv44572	2843648	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Klausavirus lymara	2843728	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Ringroadvirus BUCT47333	3432165	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Klausavirus colucci	2560302	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Aptresvirus mana	2955375	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Betaguttavirus kodakarajimaense	1032474	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Salmonella phage vB_SosS_Oslo	1168549	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Sinorhizobium phage PBC5	179237	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Rhodococcus phage E3	1007869	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Ralstonia phage RS138	1483485	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Aurantimonas phage AmM-1	1503929	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Nocardia phage NBR1	1109711	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Uetakevirus phiV10	1982579	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Jolieduovirus mercurio	2956026	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Pinnievirus pinnie	2956319	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Mycobacterium phage AnnaL29	1076630	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Foxborovirus GTE8	2955912	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Xooduovirus QDWS359	3433525	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Kochikohdavirus ECP3	2560418	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Sciuriunavirus SscM1	2734053	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Shapirovirus swift	1211644	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Ithacavirus SP058	2170216	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Anayavirus adonis	2955332	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Certevirus C23	3059855	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Britbratvirus britbrat	2560489	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Coeurvirus coeur	3059894	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Gustavvirus gustav	2560501	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Midgardsormrvirus midgardsormr38	3060306	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Lanavirus lana	2734243	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Gillianvirus oneinagillian	2734236	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Karimacvirus wofford	3430115	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Nyceiraevirus nyceirae	2560506	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Veewebvirus vwb	3060797	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Seussvirus seuss	2734278	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Skulduggeryvirus skulduggery	3060714	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Fajavirus faja	3059993	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Weaselvirus weasel	2560706	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Hadassahvirus azbtza1	2843628	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Acajnonavirus acj9	2843630	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Erwinia phage vB_EamM_ChrisDB	1883371	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Tepukevirus Psa21	3060728	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Laroyevirus wheelbite	2843734	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Veracruzvirus MA5	2956637	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Veracruzvirus babyboy	2956638	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Grutrevirus GRU3	3060026	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Ittyvirus itty13	3060058	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Hapunavirus HAP1	499235	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Samunavirus SM1	2560683	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Ghobesvirus ghobes	2560499	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Hnatkovirus DS6A	2845650	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Finchvirus finch	2955888	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Pikminvirus pikmin	2560596	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Bixzunavirus tonenili	2955509	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Ceetrepovirus kimchi1738	2955595	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Streptomyces phage SV1	1204525	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Chenonavirus Che9c	205872	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Phormidium phage MIS-PhV1A	1391455	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Ferozepurvirus pAEv1810	3059998	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Petsuvirus pEtSU	2734128	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Rheavirus sinusmexicani	3047716	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Gediminasvirus AchV4	2955942	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Metamorphoovirus teamocil	3430820	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Meganvirus megan	3430775	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Jouyvirus ev207	2844249	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Microbacterium phage Quenya	2776868	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Respirovirus ratufae	3052732	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Muromegalovirus muridbeta1	3050323	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Caulobacter virus Magneto	1211642	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Anayavirus kisi	2955340	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Timquatrovirus zoeJ	2956533	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Tulanevirus 60ahydrpp	2956562	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Cinqassovirus ah1	2955704	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Petruschkyvirus QDWS595	3060549	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Zurivirus zuri	2845969	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Enterobacteria phage ST104	221029	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Salmonella phage UPF_BP1	1912492	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Firavirus YenM4218	3060000	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Aresaunavirus RSA1	406340	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Bronvirus ohshaghennessy	2955543	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Reyvirus rey	1983751	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Caelumvirus daudau	2955566	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Equid herpesvirus 6	173566	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Moumouvirus goulettemassiliense	3080760	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Apis mellifera filamentous virus	1100043	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Sukkupivirus nadinerae	2956476	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Serangoonvirus essarone	3060697	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Cymopoleiavirus swam2	2734103	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Yellowseavirus thirtyeight	3060818	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Tefnutvirus siom18	2734147	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Tequatrovirus ecomufv133	2956497	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Jiaodavirus kp179	2956011	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Jiaodavirus kpv477	2956013	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Tegunavirus r1rt	1921705	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Mosigvirus RB69	1914161	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Mosugukvirus pm2	2956206	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Lessievirus bcep22	242527	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Lessievirus DC1	1136535	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Betanudivirus hezeae	3052000	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Chloriridovirus simulium2	3427925	3	0.0	0.4942339373970346	NA	NA
+llnl_66ce4dde	Parapoxvirus orf	3431389	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Losannavirus tunisense	1255301	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Dishui lake phycodnavirus 1	2079134	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Toursvirus dptv1a	3047794	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Alphanudivirus grybimaculati	3047860	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Alphabaculovirus olmendosae	3059714	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Alphabaculovirus anpernyi	3047366	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Alphabaculovirus aucalifornicae	3047383	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Alphabaculovirus lydisparis	3048188	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Alphabaculovirus chrychalcites	3047753	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Aviadenovirus leucophthalmi	2955388	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Aviadenovirus ventriculi	3426541	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Aptresvirus AP3	2955374	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Xanthomonas citri phage CP2	1188795	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Klebsiella phage VLCpiS13b	2874886	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Klebsiella phage BUCT541	2873352	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Croceibacter phage P2559Y	1327037	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Cronobacter phage phiES15	1168280	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Clostridium phage c-st	12336	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Rhodovulum phage vB_RhkS_P1	1873452	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Streptomyces phage mu1/6	370623	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Tsukamurella phage TPA2	981330	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Rhodobacter phage RcapMu	1105286	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Feofaniavirus Eho59	2734232	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Bcepmuvirus E255	431894	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Vendettavirus tzgordon	2956635	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Ayohtrevirus abba	2843722	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Fromanvirus rebeuca	1225862	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Fromanvirus goose	1211282	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Fromanvirus saintus	1097754	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Gelderlandvirus cgg41	2955945	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Mosigvirus JS09	1914160	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Centumtrigintavirus cv133	3427844	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Jiaodavirus kppv15	2956012	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Tequintavirus Th1	2846119	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Ceetrepovirus stickynote	2955596	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Sukkupivirus sukkupi	2956477	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Gruunavirus GRU1	2955960	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Heverleevirus OLIVR5	3052245	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Beejeyvirus bagaejinnorense	3426661	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Retbasiphovirus hantatum	3432154	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Mechnikovvirus SS2019XII	3430752	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Zukovirus phill	3060829	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Zukovirus zuko	3060830	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Vojvodinavirus MW2	3433290	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Epaquintavirus Epa5	2955862	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Mallosvirus mallos	3430621	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Pamexvirus phiH1	3431347	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Julieunavirus julie1	2956033	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Acadianvirus reprobate	1982903	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Imvubuvirus imvubu	2955990	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Zitchvirus verity	2956711	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Moineauvirus D1024	3060343	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Neptunevirus srim50	2734122	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Zitchvirus zipp	2956712	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Zitchvirus zitch	2956713	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Kroosvirus ribeye	2956092	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Wizardvirus mutzi	2956689	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Buchavirus intestinalis	2955553	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Agmunavirus AGM1	2843882	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Jolieduovirus lemuria	2956025	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Enterobacter phage Tyrion	1864623	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Korravirus kittykat	2956070	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Detrevirus D3	31535	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Coopervirus vincenzo	1983110	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Gilsonvirus gilson	2846398	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Karimacvirus starplatinum	3430114	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Henunavirus hena1	2844163	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Gajwadongvirus ECBP5	2733916	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Ponsvirus lauer	3060638	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Pavtokvirus pavtok	3060522	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Efekovirus efeko	3428447	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Saikungvirus HK75	2169925	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Anayavirus markphew	2955343	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Casadabanvirus MP38	505292	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Casadabanvirus JD024	3059844	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Sukuvirus RSPII1	2733596	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Wphvirus WPh	1922328	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Eldridgevirus eldridge	2843766	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Goettingenvirus goe8	2843793	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Trinevirus trine	2734284	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Mycoabscvirus phiT46-1	2956208	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Dinavirus dina	2846739	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Squashvirus squash	2734281	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Streptomyces phage phiSAJS1	1755682	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Uetakevirus SPN1S	1982581	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Nesevirus ev243	2844251	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Corndogvirus corndog	205875	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Corndogvirus catdawg	2955723	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Phobosvirus PspYZU01	2956315	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Ceceduovirus cc2	2843653	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Dragolirvirus dragolir	2845734	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Rosariovirus Weirdo19ES	2956376	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Snuvirus SNUABM7	3060715	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Phleivirus Phlei	2956314	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Anjalivirus anjali	2843723	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Vhulanivirus Shpa	2560625	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Unicornvirus shandong1	2956579	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Mycobacterium phage OkiRoe	1486473	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Mycobacterium phage Milly	1567473	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Anayavirus yuna	2955352	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Bixzunavirus I3	2006137	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Bixzunavirus lukilu	2560606	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Hepatovirus bephopi	3429213	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Betafusarivirus brasiliensis	2955447	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Uukuvirus tyulenyense	3052809	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Sripuvirus almpiwar	1985693	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Alphacytorhabdovirus betawuhaninsectum	3426122	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Percavirus equidgamma2	3050281	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Roseolovirus macacinebeta9	3050310	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Quwivirus tupaiidbeta1	3050362	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Stanholtvirus sv6442	431891	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Quhwahvirus shotgun	3432068	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Microbacterium phage AvGardian	2725619	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Dismasvirus dismas	2560588	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Phobosvirus phobos	2956316	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Sessunavirus SESS1	2956437	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Broinstvirus pCB2051A	2955537	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Abalone shriveling syndrome-associated virus	491893	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Enterobacteria phage mEp460	1147152	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Shigella phage SfII	66284	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Clostridium phage phiCT453A	1567012	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Moumouvirus moumou	1128137	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Tupanvirus salinum	3060758	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Wuhan coneheads virus 1	1923695	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Simplexvirus leporidalpha4	3050304	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Simplexvirus paninealpha3	3050333	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Varicellovirus equidalpha3	3050277	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Varicellovirus cervidalpha3	3050261	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Arequatrovirus paedore	2955378	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Camvirus CAM	1982883	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Kelquatrovirus KL4	2734160	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Juiceboxvirus juicebox	2734241	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Andrewvirus andrew	2734214	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Naesvirus bcepNY3	446807	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Eyrevirus eyre	2560492	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Sourvirus sour	2560509	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Lacusarxvirus lacusarx	2560778	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Identitycrisisvirus identitycrisis	3429898	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Denvervirus dv9183	2955750	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Chewyvirus chewyVIII	3427903	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Yvonnevirus yvonnetastic	3433590	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Valentinivirus valentinipuff	3433091	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Oscarsovirus oscarso	3431516	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Ionavirus W14	2560406	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Kisquattuordecimvirus KS14	2734065	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Tigrvirus BP822	3060742	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Kujavirus kuja	2841283	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Vapseptimavirus VAP7	2841303	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Likavirus zemlya	1982892	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Aoqinvirus RD1410W101	2846069	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Huelvavirus ort11	2846232	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Waedenswilvirus S6	2844164	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Simplexvirus papiinealpha2	3050336	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Iltovirus psittacidalpha1	3050344	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Cytomegalovirus humanbeta5	3050295	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Varicellovirus cervidalpha1	3050259	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Risingsunvirus risingsun	2560435	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Marfavirus marfa	2845092	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Beenievirus michaelscott	3059767	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Mementomorivirus cressida	3430795	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Kozievirus kozie	3430276	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Nevillevirus trax	3060415	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Jawnskivirus jawnski	3430002	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Nymphadoravirus boynamedsue	3060425	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Inovirus M13	1977402	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Chaphamaparvovirus galliform3	3052108	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Peduovirus P22H4	2844218	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Peduovirus P2	10679	2	0.0	0.32948929159802304	NA	NA
+llnl_66ce4dde	Peduovirus YPM22	2956278	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tigrvirus E202	431893	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bielevirus phiO18P	393598	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kayeltresvirus KL3	2956052	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Nampongvirus ST79	2734068	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Arsyunavirus RSY1	2955380	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Novemvirus T5282H	2844122	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Irrigatiovirus SI7	2846104	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Entnonagintavirus ENT90	2734061	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mastadenovirus bostertium	3241409	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aviadenovirus anatis	3426517	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Dori	1089121	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Vibrio phage VBM1	754074	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rhizobium phage 16-3	10704	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sphingomonas phage PAU	1150991	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pseudomonas phage PS-1	1573458	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Klebsiella phage BUCT610	2834265	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Achromobacter phage JWF	1589748	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Haemophilus phage Aaphi23	230158	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Theiavirus salishense	3060737	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Biavirus raunefjordenense	3059777	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bacillus phage vB_BhaS-171	1775140	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Brochothrix phage BL3	764562	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lactococcus phage Tuc2009	35241	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cyanophage PSS2	658401	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rhizobium phage vB_RleM_PPF1	1498228	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Geobacillus virus E3	1572712	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Closterovirus rehmanniae	3428010	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Closterovirus uniribi	3428014	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hepacivirus hominis	3052230	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Monocitivirus ichi	3430930	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fijivirus fijiense	3428773	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphapithovirus sibericum	3426242	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tupanvirus altamarinense	3060757	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mimivirus terra2	1128151	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Acinetobacter phage Ac42	762660	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ceceduovirus assw	2843651	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tulanevirus aes508	1921531	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Escherichia phage vB_EcoM-Ro157c2YLVW	2178932	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ludhianavirus D3	3060171	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cronobacter phage CR5	1195085	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Nimduovirus N1M2	3060418	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Meadowvirus AH04	3060193	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Diorhovirus intestinalis	2955762	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Endlipuvirus intestinihominis	2955861	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hacihdavirus animalis	2955969	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kahucivirus intestinalis	2956048	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kingevirus communis	2956060	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Flaumdravirus KIL4	2560666	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Nankokuvirus Ab03	1925780	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Metamorphoovirus ariadne	3430818	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sharonstreetvirus A18P4	2956440	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yonseivirus N137	2845093	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Microbacterium phage Eula	2926098	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Microbacterium phage AnnaLie	2772023	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kostyavirus kv244	373403	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kostyavirus toto	1993871	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lahndsivirus rarus	2956099	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lebriduvirus gastrointestinalis	2956106	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hicfunavirus HCF1	2653507	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Jhansiroadvirus gwaliVC1	2846602	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Privateervirus pv009	2844032	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Moazamivirus SE131	3060310	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Acinetobacter phage vB_AbaM_phiAbaA1	1605379	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ruegeria phage vB_RpoS-V11	2218617	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ruegeria phage vB_RpoS-V16	2218618	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Jacunavirus JC01	2955994	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Phayoncevirus phayonce	1983742	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Phayoncevirus thulathula	2956311	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tortellinivirus tortellini	3432938	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Octobienvirus octobien14	3060434	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Brujitavirus xula	2955546	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Montyvirus jellybones	2844667	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rtpvirus Rtp	355246	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Nouzillyvirus ESCO41	2734029	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kroosvirus gaea	2956089	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kroosvirus yorkonyx	2956094	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Dexdertvirus GTE6	2955753	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Dexdertvirus tiamoceli	2955755	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Wizardvirus bakery	2956682	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Clownvirus clown	2955709	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Smoothievirus smoothie	1982561	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Makemake	1873889	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Bipolar	1551711	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cheoctovirus eleanorgeorge	2955631	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cheoctovirus spartacus	3427893	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cheoctovirus melissauren88	2955659	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Thetabobvirus renaud18	3432795	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Buchavirus hominis	2955552	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bohxovirus oralis	2955512	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kehishuvirus primarius	2956053	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Veracruzvirus pistachio	2956640	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Septimatrevirus PX5	3432362	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Liefievirus grizzly	2956113	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Jolieduovirus jolie2	2956015	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pinnievirus moorethemaryer	2956318	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Avocadovirus avocado	2955390	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bluefeathervirus bluefeather	3424305	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Reqipinevirus reqipine5	3432151	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Metamorphoovirus jayden	3430819	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Quhwahvirus paschalis	2182400	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Zhangjivirus fado	3433611	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hollowayvirus E220	3429776	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hollowayvirus PA8	3429779	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Santhisvirus santhid	3432255	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kagunavirus golestan	2560464	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Escherichia phage ZCEC5	2530021	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Hosp	1463811	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Acadianvirus baee	1982902	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Quesadillavirus CRB2	2956352	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Quesadillavirus quesadilla	2956353	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pegunavirus oline	1986350	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pamexvirus AAT1	3431346	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pamexvirus phiH2	3431348	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bosavirus bosa	2955515	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Novosibvirus stubb	2733995	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Priunavirus PSTCR5	2956338	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hongcheonvirus DUPPV	2733994	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Moineauvirus P7574	3060365	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Vansinderenvirus 5093	3060774	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Vividuovirus vivi2	2560512	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Vividuovirus brandonk123	2560488	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Leonardvirus ali17	2956109	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Chenonavirus sbash	2169812	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rollinsvirus ph04	3060671	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ceetrepovirus zion	3427839	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Gruunavirus GTE5	2955961	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Gruunavirus turuncu	2955963	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pleakleyvirus pleakley	2956325	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cetovirus ceto	2060092	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Vipunavirus pVp1	2560835	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage RhynO	1458846	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Pari	1718171	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Adzzy	1383059	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Turj99	1701849	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mycobacterium phage Alsfro	1458724	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fromanvirus L5	31757	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fromanvirus U2	1993862	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Seejivirus salhabitans	3241302	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Coopervirus nigel	1983118	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rosebushvirus godines	1982904	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rosebushvirus TA17a	2560607	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rosebushvirus laurie	2956377	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ponsvirus cherryonlim	3060637	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Detrevirus PMG1	1129146	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Woodruffvirus TP1604	1982746	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alexandravirus AD1	2734080	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tunggulvirus f2	2733363	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ghunavirus KNP	1981933	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Berlinvirus RN5i1	3059771	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pairvirus Lo5R7ANS	2733941	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pelagivirus S35C6	2733945	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Certrevirus phiTE	1980961	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Annadreamyvirus annadreamy	2846392	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Coruscantvirus coruscant	3059903	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bruynoghevirus CHU	2040655	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pavtokvirus PEp14	3060523	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Paopuvirus kaijohn	2956259	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hacavirus italiense	3429137	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Northamptonvirus jeon	3060420	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Northamptonvirus taptic	3060421	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Phikmvvirus kF77	2733353	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Phikmvvirus LKD16	2733354	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Elanorvirus elanor	3428460	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ghuizhouvirus A1432	3429002	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yuavirus MP1412	3433575	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yuavirus PAE1	3433576	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Picardvirus picard	2734264	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Gustavvirus mahdia	2560505	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Torontovirus JBD25	3432931	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Austintatiousvirus austintatious	2734219	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Anayavirus urkel	2955350	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Anayavirus murucutumbu	2955345	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Anayavirus sirphilip	2955349	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Anayavirus bella96	2955337	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Anayavirus anaya	1034152	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Anayavirus crimD	861045	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Unicornvirus krueger	2956578	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kratiovirus collard	2956078	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aminayvirus aminay	2955329	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Caeruleovirus Bc431	1985175	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bastillevirus hoodyT	2560331	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Schiekvirus EFDG1	2560422	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hopescreekvirus LfeInf	2845136	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tybeckvirus tv521B	2845127	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aqualcavirus P14	2560297	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Casadabanvirus spike	3059850	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Timquatrovirus findley	2956531	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Timquatrovirus mufasa	2956532	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Amginevirus amohnition	2955325	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Amginevirus ekdilam	2955327	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fionnbharthvirus eponine	2955890	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fionnbharthvirus patt	2955893	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Keshuvirus pixie	1034114	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Keshuvirus macncheese	1195070	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alexandravirus SNUABM16	3059701	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Charlievirus panchino	2170172	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Timshelvirus HINdeR	2956534	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Timshelvirus SWU2	2956535	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Akonivirus phedro	2845594	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tinytimothyvirus alex44	2845588	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Howevirus howe	3060038	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Howevirus mcklovin	3060039	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Footloosevirus footloose	3428804	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aziravirus azira	3426584	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Eagleeyevirus eagleeye	2955842	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fukuivirus MVDC	2845598	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Arvduovirus ArV2	3059739	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Axeltriavirus AXL3	3059753	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Elemovirus elemoC	2955850	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Anatolevirus anatole	2169704	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Firehammervirus CP21	1190451	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fletchervirus CP30A	1980966	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mooglevirus mordin	1985305	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Dibbivirus DIBBI	2846671	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Namazuvirus POI1126	3060404	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Chaovirus bigenum	3427862	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tankvirus tank	1982567	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tinduovirus TIN2	1982570	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Gordonia phage Rosalind	1838077	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kuravirus CHD5UKE1	3060075	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kuravirus ES17	3060077	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Trigintaduovirus 32HC	2170239	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tabernariusvirus tabernarius	2560691	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Myosmarvirus MTx	2846180	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sortsnevirus sortsne	2734189	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sortsnevirus IME279	2734190	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kratiovirus kratio	2956080	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kratiovirus omnicron	2956082	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ilzatvirus hamlet	2560591	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ilzatvirus mcgalleon	2845592	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Corgivirus corgi	3428080	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Noelyvirus noely	3431172	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Beograduvirus KPhi1	2955426	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tsukubavirus XPV1	2956560	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Fairfaxidumvirus fairfaxidum	2731208	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aurunvirus STIM5	2734088	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Schubertvirus schubert	2734277	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sidiousvirus sidious	3060705	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lagaffevirus lagaffe	2734112	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Llyrvirus SSKS1	2734116	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Samsavirus crystalli	3432247	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sasdunavirus SASD1	3060679	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Knuthellervirus PMBT14	2845962	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Miecznikowavirus AH14a	3430847	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pahexavirus PAD20	1982271	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ruthyvirus ruthy	2734272	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Immanueltrevirus immanuel3	2846399	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Gimaduovirus GMA2	3060018	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Freyavirus danklef	2955922	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Scapunavirus scap1	2560792	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bismarckvirus shambre1	3427496	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aspduovirus Asp2	3426484	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bernalvirus mendokysei	2955428	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Demosthenesvirus katyusha	1982108	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Successvirus success	3432624	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lacnuvirus LcNu	2845135	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Theosmithvirus tv0105phi72	3432794	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kuleanavirus kuleana	2843726	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Jilinvirus ECOO78	2560443	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Shuimuvirus IME207	2956444	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sheenvirus Sheen	2956443	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pemunavirus PM1	2843778	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lambovirus lambo	2844670	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lomovskayavirus C31	10719	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cbastvirus ST	1918720	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Moturavirus motura	2843625	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hautrevirus hau3	1982895	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Janusvirus hank144	2956000	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Salutenavirus salutena	2956389	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sentinelvirus sentinel	2956431	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bromdenvirus dyoedafos	2955539	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Reyvirus aziz	2956365	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Audreyjarvisvirus P1048	2845430	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Nanditavirus cole	3431036	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Likavirus goby	2956117	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Likavirus lorelei	2956118	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Likavirus yasdnil	2956121	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Omarvirus amethyst	2956235	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Caelumvirus thestral	2955568	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Camvirus amela	1982882	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Camvirus endor2	2955574	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Camvirus sitrop	2955577	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sparkyvirus sparky	2845655	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hedwigvirus hedwig	2560502	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Gundelvirus Gundel	2955965	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Shirevirus pfeifenkraut	3432425	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bakolyvirus bakoly	2846039	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kairosalinivirus M31CR412	2041859	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Likavirus hydra	1982887	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Likavirus izzy	1982888	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Purivirus UFJFPfDIW6	3060664	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Whiteheadvirus wv1358	2845151	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Murrayvirus lumpael	2734260	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Xuquatrovirus PTXU04	2734191	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Maxrubnervirus PMBT3	2734251	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Triplejayvirus tripleJ	2843732	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Luckybarnesvirus luckybarnes	2734246	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Paclarkvirus IPP48	3060514	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Littlefixvirus 98Pflur60pp	3060164	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lederbergvirus Sf6	10761	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lederbergvirus ST64T	173443	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Likavirus caliburn	1982885	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kuttervirus SenALZ1	2846115	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kuttervirus kv38	2169807	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Miltonvirus MAM1	2169689	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Menderavirus IMESM1	2846388	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Zicotriavirus ZC03	2845967	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sanyabayvirus DS1410Ws06	2844087	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Luzseptimavirus KPP21	1982595	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Inbricusvirus inbricus	2845970	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Efbeekayvirus P184	2955844	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Kaypoctavirus KP8	2845088	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cbunavirus Kc283	3059853	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pacinivirus VCO139	2846607	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Varicellovirus equidalpha1	3050276	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Varicellovirus monodontidalpha1	3050322	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Simplexvirus macropodidalpha4	3060711	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Simplexvirus pteropodidalpha2	3060712	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mardivirus columbidalpha1	3050267	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cytomegalovirus aotinebeta1	3050137	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cytomegalovirus cercopithecinebeta5	3050258	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pollockvirus pollock	2170215	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Noahvirus arc	2956229	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Sendosyvirus APSE1	67571	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alegriavirus av2B8	2844171	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Emalynvirus emalyn	2560491	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Magadivirus Mgbh1	2560333	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Coventryvirus SP441	2846374	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Wollypogvirus wollypog	3060804	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Takahashivirus PBS1	10683	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mazuvirus scam7	2734118	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tequatrovirus T4	10665	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Tequatrovirus sf24	2560761	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Jiaodavirus pko111	1985327	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Gelderlandvirus melville	2560727	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Dhakavirus ecom005	2955757	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Risoevirus cronus	3432166	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lasallevirus Acj61	3430339	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Potexvirus ecsopuntiae	3433833	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Schizotequatrovirus KVP40	1914019	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Biquartavirus 44RR2	115987	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Greenvirus ssm4	2955958	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alisovirus socal22	2955237	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Zhoulongquanvirus esscess	3060828	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Bellamyvirus bellamy	2734095	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pontusvirus syn19	2734134	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rhadinovirus macacinegamma12	3050313	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rhadinovirus macacinegamma5	3050315	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Orthobunyavirus lasmaloyasense	3060478	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mivirus wuhanense	2845626	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Ollusvirus coleopteri	2845706	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Shrew coronavirus	2050019	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Potyvirus duobatatae	3240525	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Marafivirus avenae	3048226	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Menderavirus moby	2846390	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cytomegalovirus mandrillinebeta1	3050319	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cytomegalovirus papiinebeta3	3050337	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Elephant endotheliotropic herpesvirus 3	548913	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Muromegalovirus muridbeta2	3050324	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lymphocryptovirus callitrichinegamma3	3050250	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lymphocryptovirus humangamma4	3050299	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lymphocryptovirus macacinegamma10	3050311	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphapleolipovirus thailandense	2747320	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Peduovirus P24E6b	2844222	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphasphaerolipovirus viikkii	2049890	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphasphaerolipovirus pinkense	2955317	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hukuchivirus IN93	2844981	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Hukuchivirus P2377	2844982	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yingchengvirus koreaense	3433568	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aviadenovirus gallinae	3426525	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Orthopoxvirus volepox	3431488	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Epsilonentomopoxvirus dlongicaudata	3428560	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Asfivirus haemorrhagiae	3426474	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Mastadenovirus flavi	3241427	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Peduovirus L413C	227940	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Peduovirus pro147	2560458	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Treisthetapapillomavirus 1	2170237	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Dyokappapapillomavirus 4	2169879	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yellowstone lake phycodnavirus 2	1586714	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yellowstone lake phycodnavirus 3	1586715	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Prasinovirus micromonas	3241176	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Chrysochromulina parva virus	2565304	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Raphidovirus japonicum	3432138	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Parapoxvirus pseudocowpox	3431390	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Cervidpoxvirus muledeerpox	3427847	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Centapoxvirus yokapox	3427843	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rhizobium phage RR1-A	929833	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Rhizobium phage RR1-B	929834	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yersinia phage PY54	172667	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Enterobacteria phage cdtI	414970	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Short-finned eel ranavirus	638660	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Chloriridovirus aedes1	3427923	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Chloriridovirus wiseana1	3427926	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Golden Marseillevirus	1720526	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Nipunavirus PaMx25	1982241	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Torvergatavirus MMDA13	3432939	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yangvirus adumb2043	3060809	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yangvirus amyev	3060810	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yangvirus elezi	3060811	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yangvirus phives	3060814	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Samwavirus samW	2734273	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Baxterfoxvirus yeezy	3426656	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Dardanusvirus dardanus	2955737	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Peatvirus peat2	2560629	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Feofaniavirus Eho49	2734231	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Muldoonvirus PS2	2846184	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Klausavirus dryang	2843724	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yihwangvirus BCPST	3060820	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Yihwangvirus pW4	3060822	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Pankowvirus pv1717	2844169	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Betabaculovirus altermyunipunctae	3051996	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Betabaculovirus spofrugiperdae	3048334	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphanudivirus alterdromelanogasteris	3051615	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphaglobulovirus pozzuoliense	2843675	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Primolicivirus Pf1	2011081	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Vibakivirus vibaki	2843733	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Lessievirus bcepil02	644524	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Catfishvirus catfish	2955592	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Aviadenovirus gallopavoprimum	3426526	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Barthadenovirus lacertae	3426635	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphabaculovirus speridaniae	3078442	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphabaculovirus lyxylinae	3051419	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphabaculovirus thorichlaceae	3048363	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphabaculovirus splittoralis	3048336	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphabaculovirus orpseudotsugatae	3048238	1	0.0	0.16474464579901152	NA	NA
+llnl_66ce4dde	Alphabaculovirus hytalacae	3048150	1	0.0	0.16474464579901152	NA	NA
