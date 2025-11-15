@@ -60,9 +60,11 @@ Contains only viruses with **RPM ≥ 10**, sorted by RPM in descending order.
 
 ## 🧮 Abundance Metrics Explained
 
-### RPM (Reads Per Million) ⭐ Primary Metric
+### RPM (Reads Per Million) ⭐ Primary Metric - Relative Abundance
 
 **Definition**: Number of reads assigned to the virus per million total reads
+
+**Type**: **Relative abundance** metric (normalized to total reads)
 
 **Formula**:
 ```
@@ -78,16 +80,21 @@ Sample B: total reads = 5M, virus X = 250 reads
 RPM = (250 / 5,000,000) × 1,000,000 = 50
 ```
 
-Despite different absolute read counts, identical RPM → consistent viral abundance
+Despite different absolute read counts, identical RPM → consistent relative viral abundance
 
 **Applications**:
 - ✅ Compare same virus across samples
 - ✅ Eliminate sequencing depth differences
 - ✅ Most commonly used normalization metric
+- ✅ Standard metric for relative abundance comparison
 
-### RPKM (Reads Per Kilobase Million)
+**Important**: RPM is a **relative abundance** metric, not absolute abundance. It represents the proportion of reads assigned to a virus relative to total reads.
+
+### RPKM (Reads Per Kilobase Million) - Relative Abundance (Genome-length Normalized)
 
 **Definition**: Accounts for both genome length and sequencing depth
+
+**Type**: **Relative abundance** metric (normalized to total reads and genome length)
 
 **Formula**:
 ```
@@ -103,15 +110,19 @@ Virus Y (150 kb genome): 3000 reads, total 10M reads
 RPKM = 3000 / (150 × 10) = 2
 ```
 
-**Interpretation**: Despite same read count, virus X has higher actual viral load
+**Interpretation**: Despite same read count, virus X has higher relative viral load (accounting for genome size)
 
 **Applications**:
-- ✅ Compare viral loads between different viruses
+- ✅ Compare relative viral loads between different viruses
 - ✅ Eliminate genome size effects
+- ✅ Fair comparison across viruses with different genome sizes
 
 **Limitations**:
 - ⚠️ Requires known genome length
 - ⚠️ Unknown viruses show "NA"
+- ⚠️ Still a relative abundance metric, not absolute abundance
+
+**Note**: Both RPM and RPKM are **relative abundance** metrics. For absolute abundance (actual viral particle counts), additional calibration methods such as spike-in controls or qPCR are required.
 
 ---
 
@@ -243,7 +254,7 @@ My_virus_species_2	35000
 EOF
 
 # Recalculate (affects RPKM only)
-python3 calculate_abundance_longread.py \
+python3 calculate_abundance_longread_en.py \
   --kraken results/kraken2/sample.report \
   --genome-db my_viral_genomes.tsv \
   --output sample_abundance_updated.tsv
@@ -336,5 +347,5 @@ plt.savefig('top_viruses.png', dpi=300)
 
 ---
 
-**Need more help?** See README_EN.md or related guide documentation.
+**Need more help?** See README.md or related guide documentation.
 

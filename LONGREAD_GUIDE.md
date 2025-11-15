@@ -93,6 +93,13 @@ params {
     run_bracken = false    // ⭐ Long reads don't use Bracken
     
     perform_longread_qc = true
+    
+    // Apptainer configuration (handles missing mount points)
+    profiles {
+        apptainer {
+            apptainer.runOptions = '--no-mount /lscratch'
+        }
+    }
 }
 ```
 
@@ -122,8 +129,8 @@ sample1,run1,OXFORD_NANOPORE,/path/to/reads.fastq.gz,,
 **Your data example** (llnl_66d1047e):
 - Total reads: 255,000 ✅
 - Detected viruses: 614 species ⭐⭐⭐⭐⭐
-- Viral reads: 11,414 (4.99%)
 - Classification quality: Excellent
+- Highest RPM: 400 (Pulverervirus PFR1)
 
 ---
 
@@ -288,5 +295,5 @@ Output location: results_viral_long/abundance/
 
 ---
 
-**More information?** See README_EN.md or ABUNDANCE_USAGE_EN.md
+**More information?** See README.md or ABUNDANCE_USAGE.md
 

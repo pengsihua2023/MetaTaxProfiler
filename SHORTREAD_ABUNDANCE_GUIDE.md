@@ -36,7 +36,7 @@ Kraken2 classification
     ↓
 Bracken statistical correction ← Improves species-level accuracy
     ↓
-calculate_abundance.py
+calculate_abundance_en.py
     ↓
 RPM/RPKM values (accuracy ~98%)
 ```
@@ -44,7 +44,17 @@ RPM/RPKM values (accuracy ~98%)
 **Check Bracken database**:
 ```bash
 ls -lh /path/to/kraken2_db/database150mers.kmer_distrib
+ls -lh /path/to/kraken2_db/database150mers.kraken
 ```
+
+**Configure in databases.csv**:
+```csv
+tool,db_name,db_params,db_path
+kraken2,Viral_ref,"",/path/to/kraken2_viral_database
+bracken,Viral_ref,";-r 150",/path/to/kraken2_viral_database
+```
+
+Note: `;-r 150` specifies read length of 150 bp (adjust based on your data: 50, 75, 100, 150, 200, 250, 300)
 
 ### Method 2: Fallback Method (Automatic Backup, Still Valid)
 
@@ -55,7 +65,7 @@ Kraken2 classification
     ↓
 Direct abundance extraction
     ↓
-calculate_abundance_longread.py
+calculate_abundance_longread_en.py
     ↓
 RPM/RPKM values (accuracy ~90%)
 ```
@@ -78,14 +88,14 @@ After submit_short.sh runs:
 │  ├─ Kraken2 ✅ Always runs
 │  └─ Bracken ❓ Depends on database
 │
-└─ batch_calculate_abundance.sh (smart dispatcher)
+└─ batch_calculate_abundance_en.sh (smart dispatcher)
    │
    ├─ Bracken results detected?
    │
-   ├─ Yes → calculate_abundance.py
+   ├─ Yes → calculate_abundance_en.py
    │         └─ Bracken-based (more accurate) ✅✅
    │
-   └─ No  → batch_calculate_abundance_longread.sh
+   └─ No  → batch_calculate_abundance_longread_en.sh
              └─ Kraken2-based (still valid) ✅
 ```
 
@@ -127,12 +137,23 @@ params {
     run_kraken2 = true
     run_bracken = true   // If Bracken database available
     
+    // Bracken parameters
+    bracken_precision = 'S'    // Species level
+    bracken_readlen   = 150    // Read length (match your data)
+    
     // QC
     perform_shortread_qc = true
     
     // Resources
     max_cpus    = 32
     max_memory  = '256.GB'
+    
+    // Apptainer configuration (handles missing mount points)
+    profiles {
+        apptainer {
+            apptainer.runOptions = '--no-mount /lscratch'
+        }
+    }
 }
 ```
 
@@ -163,10 +184,11 @@ results_viral_short/abundance/
 **Your short-read sample** (llnl_66ce4dde):
 
 ```
-Total reads: 6,070,000 (6.07 M)
+Total reads (classified): 12,987 (Bracken-estimated reads)
 Detected viruses: 1,087 species
-Highest RPM: 100 (Shigella phage SfIV)
+Highest RPM: 51,051 (Shigella phage SfIV)
 Main type: Environmental phages
+Note: Total reads shown is from Bracken classification, not raw sequencing reads
 ```
 
 ---
@@ -247,10 +269,10 @@ Ensure `bracken_readlen` matches actual read length (or use closest value).
 **Solution**:
 ```bash
 # Manually run abundance calculation
-bash batch_calculate_abundance.sh results_viral_short
+bash batch_calculate_abundance_en.sh results_viral_short
 
 # Or use universal script
-bash batch_calculate_abundance_longread.sh results_viral_short
+bash batch_calculate_abundance_longread_en.sh results_viral_short
 ```
 
 ### Issue: top_viruses_summary.tsv is empty
@@ -360,5 +382,5 @@ sbatch submit_short.sh  →  Auto analysis  →  results_viral_short/abundance/
 
 ---
 
-**More information?** See README_EN.md or ABUNDANCE_USAGE_EN.md
+**More information?** See README.md or ABUNDANCE_USAGE.md
 

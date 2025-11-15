@@ -43,10 +43,10 @@ sbatch submit_long.sh
 │   └── submit_long.sh             # Long-read analysis entry point
 │
 └── Abundance Calculation (4)
-    ├── batch_calculate_abundance.sh              # Short-read abundance (smart dispatcher)
-    ├── batch_calculate_abundance_longread.sh     # Universal abundance (Kraken2)
-    ├── calculate_abundance.py                    # Bracken → RPM/RPKM
-    └── calculate_abundance_longread.py           # Kraken2 → RPM/RPKM
+    ├── batch_calculate_abundance_en.sh              # Short-read abundance (smart dispatcher)
+    ├── batch_calculate_abundance_longread_en.sh     # Universal abundance (Kraken2)
+    ├── calculate_abundance_en.py                    # Bracken → RPM/RPKM
+    └── calculate_abundance_longread_en.py           # Kraken2 → RPM/RPKM
 ```
 
 ---
@@ -74,11 +74,14 @@ sample1,run1,OXFORD_NANOPORE,/path/to/reads.fastq.gz,,
 ```csv
 tool,db_name,db_params,db_path
 kraken2,Viral_ref,"",/path/to/kraken2_viral_database
+bracken,Viral_ref,";-r 150",/path/to/kraken2_viral_database
 ```
 
 **Requirements**:
-- **Short-read**: Kraken2 database (optional Bracken database for improved accuracy)
-- **Long-read**: Kraken2 database only
+- **Short-read**: Kraken2 database + Bracken database (recommended for improved accuracy)
+  - Bracken database files should be in the same directory as Kraken2 database
+  - Required files: `database150mers.kmer_distrib`, `database150mers.kraken`
+- **Long-read**: Kraken2 database only (Bracken not needed)
 
 ---
 
@@ -115,15 +118,19 @@ results_viral_short/  (or results_viral_long/)
 
 ## 🧮 Abundance Metrics
 
-### RPM (Reads Per Million)
+### RPM (Reads Per Million) - Relative Abundance
 - **Formula**: `RPM = (viral reads / total reads) × 1,000,000`
 - **Purpose**: Compare the same virus across different samples
 - **Advantage**: Simple and intuitive, no genome length required
+- **Type**: Relative abundance metric (normalized to total reads)
 
-### RPKM (Reads Per Kilobase Million)
+### RPKM (Reads Per Kilobase Million) - Relative Abundance (Genome-length Normalized)
 - **Formula**: `RPKM = (viral reads) / (genome length kb × total reads million)`
-- **Purpose**: Compare viral loads between different viruses
+- **Purpose**: Compare viral loads between different viruses (accounts for genome size)
+- **Type**: Relative abundance metric (normalized to total reads and genome length)
 - **Limitation**: Requires known genome length (unknown viruses show NA)
+
+**Note**: Both RPM and RPKM are **relative abundance** metrics, not absolute abundance. For absolute abundance, additional calibration methods (e.g., spike-in controls) are required.
 
 ---
 
@@ -242,6 +249,7 @@ head -51 results_viral_short/abundance/all_samples_abundance_summary.tsv
 - **Java**: 17+ (OpenJDK 17.0.3)
 - **Nextflow**: 25.04+ (current 25.04.7)
 - **Apptainer**: 1.3+ (current 1.3.6)
+  - **Configuration**: `--no-mount /lscratch` (handles missing mount points)
 - **Conda**: nextflow_env environment
 - **Python**: 3.9+ (for abundance calculation)
 - **Python packages**: pandas (for abundance calculation)
@@ -310,9 +318,9 @@ To use Bracken (optional, more accurate):
 
 ## 📚 Related Documentation
 
-- **ABUNDANCE_USAGE_EN.md** - Detailed abundance calculation guide
-- **LONGREAD_GUIDE_EN.md** - Long-read data specific guide
-- **SHORTREAD_ABUNDANCE_GUIDE_EN.md** - Short-read abundance guide
+- **ABUNDANCE_USAGE.md** - Detailed abundance calculation guide
+- **LONGREAD_GUIDE.md** - Long-read data specific guide
+- **SHORTREAD_ABUNDANCE_GUIDE.md** - Short-read abundance guide
 
 ---
 
