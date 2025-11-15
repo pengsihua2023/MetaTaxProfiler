@@ -63,8 +63,8 @@ if [ $? -eq 0 ]; then
     echo "Output directory: $OUTDIR"
     
     # Run abundance calculation script
-    if [ -f "batch_calculate_abundance.sh" ]; then
-        bash batch_calculate_abundance.sh "$OUTDIR"
+    if [ -f "batch_calculate_abundance_en.sh" ]; then
+        bash batch_calculate_abundance_en.sh "$OUTDIR"
         
         if [ $? -eq 0 ]; then
             echo ""
@@ -80,8 +80,8 @@ if [ $? -eq 0 ]; then
             echo "⚠️  Warning: Abundance calculation failed, but main analysis completed"
         fi
     else
-        echo "⚠️  Warning: batch_calculate_abundance.sh script not found"
-        echo "    You can run manually: bash batch_calculate_abundance.sh $OUTDIR"
+        echo "⚠️  Warning: batch_calculate_abundance_en.sh script not found"
+        echo "    You can run manually: bash batch_calculate_abundance_en.sh $OUTDIR"
     fi
 else
     echo ""

@@ -64,8 +64,8 @@ if [ $? -eq 0 ]; then
     
     # Run abundance calculation script (long-read specific)
     # Note: Long-read data doesn't use Bracken, calculates abundance directly from Kraken2 report
-    if [ -f "batch_calculate_abundance_longread.sh" ]; then
-        bash batch_calculate_abundance_longread.sh "$OUTDIR"
+    if [ -f "batch_calculate_abundance_longread_en.sh" ]; then
+        bash batch_calculate_abundance_longread_en.sh "$OUTDIR"
         
         if [ $? -eq 0 ]; then
             echo ""
@@ -73,7 +73,6 @@ if [ $? -eq 0 ]; then
             echo "🎉 All Tasks Completed!"
             echo "========================================"
             echo "📊 Classification results: $OUTDIR/kraken2/"
-            echo "📊 Bracken results: $OUTDIR/bracken/"
             echo "📈 Abundance results: $OUTDIR/abundance/"
             echo "📋 Comprehensive report: $OUTDIR/multiqc/multiqc_report.html"
             echo "========================================"
@@ -81,8 +80,8 @@ if [ $? -eq 0 ]; then
             echo "⚠️  Warning: Abundance calculation failed, but main analysis completed"
         fi
     else
-        echo "⚠️  Warning: batch_calculate_abundance_longread.sh script not found"
-        echo "    You can run manually: bash batch_calculate_abundance_longread.sh $OUTDIR"
+        echo "⚠️  Warning: batch_calculate_abundance_longread_en.sh script not found"
+        echo "    You can run manually: bash batch_calculate_abundance_longread_en.sh $OUTDIR"
     fi
 else
     echo ""
