@@ -66,12 +66,12 @@ if [ ! -d "$BRACKEN_DIR" ] || [ -z "$(find "$BRACKEN_DIR" -name "*.tsv" 2>/dev/n
     echo ""
     
     # Fallback to long-read script
-    if [ -f "batch_calculate_abundance_longread.sh" ]; then
-        echo "   Using alternative method: batch_calculate_abundance_longread.sh"
-        bash batch_calculate_abundance_longread.sh "$RESULTS_DIR" "$OUTPUT_DIR"
+    if [ -f "batch_calculate_abundance_longread_en.sh" ]; then
+        echo "   Using alternative method: batch_calculate_abundance_longread_en.sh"
+        bash batch_calculate_abundance_longread_en.sh "$RESULTS_DIR" "$OUTPUT_DIR"
         exit $?
     else
-        echo "❌ Error: batch_calculate_abundance_longread.sh not found either"
+        echo "❌ Error: batch_calculate_abundance_longread_en.sh not found either"
         echo "   Please ensure abundance calculation scripts are uploaded to the server"
         exit 1
     fi
@@ -83,30 +83,82 @@ echo "✅ Found Bracken results, will use standard method for abundance calculat
 processed=0
 failed=0
 
-# Iterate through all Bracken output files
-for bracken_file in ${BRACKEN_DIR}/*_bracken*.tsv; do
+# Find all possible Bracken output file formats (including subdirectories)
+shopt -s nullglob  # If no matches, don't return pattern itself
+BRACKEN_FILES=()
+
+# Search in main directory
+for file in "${BRACKEN_DIR}"/*_bracken*.tsv "${BRACKEN_DIR}"/*.bracken.tsv "${BRACKEN_DIR}"/*.bracken_species.tsv; do
+    [ -f "$file" ] && BRACKEN_FILES+=("$file")
+done
+
+# Search in subdirectories (important! nf-core/taxprofiler may output to subdirectories)
+for file in "${BRACKEN_DIR}"/*/*_bracken*.tsv "${BRACKEN_DIR}"/*/*.bracken.tsv "${BRACKEN_DIR}"/*/*.bracken_species.tsv; do
+    [ -f "$file" ] && BRACKEN_FILES+=("$file")
+done
+
+# Also try finding any .tsv files in Bracken directory (in case naming is different)
+if [ ${#BRACKEN_FILES[@]} -eq 0 ]; then
+    while IFS= read -r file; do
+        [ -f "$file" ] && BRACKEN_FILES+=("$file")
+    done < <(find "$BRACKEN_DIR" -type f -name "*.tsv" 2>/dev/null | head -20)
+fi
+
+if [ ${#BRACKEN_FILES[@]} -eq 0 ]; then
+    echo "⚠️  Warning: No Bracken output files found with expected patterns"
+    echo "   Tried patterns: *_bracken*.tsv, *.bracken.tsv, *.bracken_species.tsv"
+    echo "   Tried locations: ${BRACKEN_DIR}/ and subdirectories"
+    echo ""
+    echo "   Bracken directory contents:"
+    ls -lh "$BRACKEN_DIR/" 2>/dev/null || echo "   Directory empty or doesn't exist"
+    echo ""
+    echo "   All .tsv files in Bracken directory:"
+    find "$BRACKEN_DIR" -type f -name "*.tsv" 2>/dev/null | head -10 || echo "   No .tsv files found"
+    echo ""
+    echo "   Falling back to Kraken2-only method..."
+    if [ -f "batch_calculate_abundance_longread_en.sh" ]; then
+        bash batch_calculate_abundance_longread_en.sh "$RESULTS_DIR" "$OUTPUT_DIR"
+        exit $?
+    else
+        echo "❌ Error: batch_calculate_abundance_longread_en.sh not found"
+        exit 1
+    fi
+fi
+
+echo "✅ Found ${#BRACKEN_FILES[@]} Bracken output file(s)"
+echo ""
+
+# Iterate through all found Bracken output files
+for bracken_file in "${BRACKEN_FILES[@]}"; do
     if [ ! -f "$bracken_file" ]; then
-        echo "⚠️  Bracken output files not found"
         continue
     fi
     
-    # Extract sample name
-    sample=$(basename "$bracken_file" | sed 's/_bracken.*\.tsv//')
+    # Extract sample name (handle various possible file name formats)
+    sample=$(basename "$bracken_file" | \
+             sed 's/_bracken.*\.tsv$//' | \
+             sed 's/\.bracken.*\.tsv$//' | \
+             sed 's/_null_.*$//' | \
+             sed 's/_.*_Viral_ref$//' | \
+             sed 's/_Viral_ref$//')
     
     echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     echo "📊 Processing sample: $sample"
     
-    # Find corresponding Kraken2 report file
-    kraken_file="${KRAKEN_DIR}/${sample}.report"
+    # Find corresponding Kraken2 report file (search in main directory and subdirectories)
+    kraken_file=""
     
-    # Try other possible naming formats
-    if [ ! -f "$kraken_file" ]; then
-        kraken_file="${KRAKEN_DIR}/${sample}_kraken2.report"
-    fi
+    # Try various naming formats in main directory
+    for pattern in "${sample}.report" "${sample}_kraken2.report" "${sample}.kraken2.report.txt" "${sample}_kraken2_report.txt"; do
+        if [ -f "${KRAKEN_DIR}/${pattern}" ]; then
+            kraken_file="${KRAKEN_DIR}/${pattern}"
+            break
+        fi
+    done
     
-    if [ ! -f "$kraken_file" ]; then
-        # Try using wildcard to find
-        kraken_file=$(find "$KRAKEN_DIR" -name "${sample}*.report" | head -n 1)
+    # If not found, search in subdirectories
+    if [ -z "$kraken_file" ]; then
+        kraken_file=$(find "$KRAKEN_DIR" -type f \( -name "${sample}*.report" -o -name "${sample}*.kreport" -o -name "${sample}*.kraken2.report.txt" -o -name "${sample}*_kraken2_report.txt" \) | head -n 1)
     fi
     
     if [ ! -f "$kraken_file" ]; then
