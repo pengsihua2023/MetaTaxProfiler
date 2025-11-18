@@ -1,12 +1,12 @@
 # Viral Abundance Calculation User Guide
 
-## 🎯 Overview
+## Overview
 
 This workflow **automatically calculates** standardized viral abundance metrics (RPM and RPKM) after TaxProfiler completion, requiring no manual intervention.
 
 ---
 
-## 🚀 Automatic Calculation (Recommended)
+## Automatic Calculation (Recommended)
 
 ### Usage
 
@@ -28,7 +28,7 @@ results_viral_*/abundance/
 
 ---
 
-## 📊 Output File Description
+## Output File Description
 
 ### 1. Individual Sample Abundance Table (sample_abundance.tsv)
 
@@ -58,7 +58,7 @@ Contains only viruses with **RPM ≥ 10**, sorted by RPM in descending order.
 
 ---
 
-## 🧮 Abundance Metrics Explained
+## Abundance Metrics Explained
 
 ### RPM (Reads Per Million) ⭐ Primary Metric - Relative Abundance
 
@@ -126,7 +126,7 @@ RPKM = 3000 / (150 × 10) = 2
 
 ---
 
-## 🔍 Data Sources
+## Data Sources
 
 ### Short-read Data
 
@@ -163,7 +163,7 @@ RPM/RPKM values
 
 ---
 
-## 💡 Usage Scenarios
+## Usage Scenarios
 
 ### Scenario 1: Compare Same Virus Across Samples
 
@@ -199,7 +199,7 @@ awk -F'\t' '$8 != "NA"' results_viral_short/abundance/all_samples_abundance_summ
 
 ---
 
-## 🎓 Data Interpretation Guide
+## Data Interpretation Guide
 
 ### Reasonable Abundance Ranges
 
@@ -226,7 +226,7 @@ awk -F'\t' '$8 != "NA"' results_viral_short/abundance/all_samples_abundance_summ
 
 ---
 
-## 🔧 Manual Operations (Optional)
+## Manual Operations (Optional)
 
 ### Regenerate TOP Virus List
 
@@ -262,7 +262,7 @@ python3 calculate_abundance_longread_en.py \
 
 ---
 
-## 📈 Data Visualization
+## Data Visualization
 
 ### Basic Statistics
 
@@ -321,7 +321,7 @@ plt.savefig('top_viruses.png', dpi=300)
 
 ---
 
-## 🎓 Best Practices
+## Best Practices
 
 ### RPM vs RPKM Selection
 
@@ -348,4 +348,5 @@ plt.savefig('top_viruses.png', dpi=300)
 ---
 
 **Need more help?** See README.md or related guide documentation.
+
 
