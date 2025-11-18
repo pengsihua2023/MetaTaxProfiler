@@ -4,7 +4,7 @@ MetaTaxProfiler is a viral metagenomics analysis tool built upon the TaxProfiler
 
 With its containerized design, MetaTaxProfiler ensures high reproducibility, delivers publication-ready results, and intelligently adapts to available computational resources. It is an ideal solution for researchers seeking efficient and standardized viral metagenomic analysis.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Short-read Data (Illumina)
 
@@ -28,7 +28,7 @@ sbatch submit_long.sh
 
 ---
 
-## 📁 Project Files
+## Project Files
 
 ### Core Runtime Files (10)
 
@@ -53,7 +53,7 @@ sbatch submit_long.sh
 
 ---
 
-## 📊 Sample Sheet Format
+## Sample Sheet Format
 
 ### Short-read (samplesheet_short.csv)
 
@@ -71,7 +71,7 @@ sample1,run1,OXFORD_NANOPORE,/path/to/reads.fastq.gz,,
 
 ---
 
-## 🗄️ Database Configuration (databases.csv)
+## Database Configuration (databases.csv)
 
 ```csv
 tool,db_name,db_params,db_path
@@ -87,7 +87,7 @@ bracken,Viral_ref,";-r 150",/path/to/kraken2_viral_database
 
 ---
 
-## 📦 Output Results
+## Output Results
 
 ### Directory Structure
 
@@ -118,7 +118,7 @@ results_viral_short/  (or results_viral_long/)
 
 ---
 
-## 🧮 Abundance Metrics
+## Abundance Metrics
 
 ### RPM (Reads Per Million) - Relative Abundance
 - **Formula**: `RPM = (viral reads / total reads) × 1,000,000`
@@ -136,7 +136,7 @@ results_viral_short/  (or results_viral_long/)
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 ### Short-read Pipeline
 
@@ -166,7 +166,7 @@ results_viral_short/  (or results_viral_long/)
 
 ---
 
-## 🆚 Short-read vs Long-read Comparison
+## Short-read vs Long-read Comparison
 
 | Feature | Short-read (Illumina) | Long-read (Nanopore/PacBio) |
 |---------|---------------------|---------------------------|
@@ -180,7 +180,7 @@ results_viral_short/  (or results_viral_long/)
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Key Parameters (nextflow_short.config)
 
@@ -216,7 +216,7 @@ params {
 
 ---
 
-## 💡 Usage Tips
+## Usage Tips
 
 ### View Abundance Results
 
@@ -246,7 +246,7 @@ head -51 results_viral_short/abundance/all_samples_abundance_summary.tsv
 
 ---
 
-## ⚙️ Environment Requirements
+## Environment Requirements
 
 - **Java**: 17+ (OpenJDK 17.0.3)
 - **Nextflow**: 25.04+ (current 25.04.7)
@@ -258,7 +258,7 @@ head -51 results_viral_short/abundance/all_samples_abundance_summary.tsv
 
 ---
 
-## 📈 Data Interpretation
+## Data Interpretation
 
 ### Typical Abundance Ranges
 
@@ -281,7 +281,7 @@ head -51 results_viral_short/abundance/all_samples_abundance_summary.tsv
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Issue: No abundance directory generated
 
@@ -318,7 +318,7 @@ To use Bracken (optional, more accurate):
 
 ---
 
-## 📚 Related Documentation
+## Related Documentation
 
 - **ABUNDANCE_USAGE.md** - Detailed abundance calculation guide
 - **LONGREAD_GUIDE.md** - Long-read data specific guide
@@ -326,7 +326,7 @@ To use Bracken (optional, more accurate):
 
 ---
 
-## 👥 Technical Support
+## Technical Support
 
 - **Database path**: `/scratch/sp96859/Meta-genome-data-analysis/`
 - **Working environment**: `nextflow_env` (conda)
@@ -337,7 +337,8 @@ To use Bracken (optional, more accurate):
 
 ### Contact
 
-- 📧 Email: sihua.peng@uga.edu, Workflow code programmer  
-- 📧 Email: justin.bahl@uga.edu, Project supervisor  
-- 💻 Suggestion: [Click here!](https://github.com/pengsihua2023/rvdb-viral-metagenome-nf/issues/new)
+- Email: sihua.peng@uga.edu, Workflow code programmer  
+- Email: justin.bahl@uga.edu, Project supervisor  
+- Suggestion: [Click here!](https://github.com/pengsihua2023/rvdb-viral-metagenome-nf/issues/new)
+
 
