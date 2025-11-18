@@ -28,8 +28,8 @@ Automated Classification and Abundance Quantification Platform
 
 ✅ Automated quality control and preprocessing  
 ✅ Taxonomic classification (Kraken2)  
-✅ Statistical abundance estimation (Bracken for short-reads)  
-✅ Standardized abundance metrics (RPM/RPKM)  
+✅ Statistical read count correction (Bracken for short-reads, optional)  
+✅ Automatic RPM/RPKM calculation (standardized abundance metrics)  
 ✅ Comprehensive reporting (MultiQC)
 
 ---
@@ -45,12 +45,14 @@ Quality Control (FastQC/fastp or NanoPlot/Porechop)
     ↓
 Taxonomic Classification (Kraken2)
     ↓
-Abundance Estimation (Bracken for short-reads, optional)
-    ↓
-Automatic Abundance Calculation (RPM/RPKM)
+Statistical Correction (Bracken for short-reads, optional)
+    ↓  Provides corrected read counts
+Automatic RPM/RPKM Calculation (Custom Scripts)
     ↓
 Comprehensive Reports (MultiQC)
 ```
+
+**Note**: Bracken provides **statistically corrected read counts**, then our scripts calculate **RPM/RPKM** from these corrected values.
 
 **One-command execution**: `sbatch submit_short.sh` or `sbatch submit_long.sh`
 
@@ -69,7 +71,10 @@ Comprehensive Reports (MultiQC)
 
 ### 2. Smart Abundance Calculation
 
-- **Automatic method selection**: Uses Bracken when available, falls back to Kraken2
+- **Two-step process**: 
+  1. Bracken provides statistically corrected read counts (for short-reads)
+  2. Our scripts calculate RPM/RPKM from these corrected counts
+- **Automatic method selection**: Uses Bracken-corrected counts when available, falls back to Kraken2 direct counts
 - **Standardized metrics**: RPM and RPKM for cross-sample comparison
 - **Batch processing**: Handles multiple samples automatically
 
@@ -117,13 +122,39 @@ bracken,Viral_ref,";-r 150",/path/to/kraken2_database
 
 ---
 
-## Slide 7: Abundance Metrics
+## Slide 7: Abundance Calculation Process
+
+### Two-Step Process for Short-read Data
+
+**Step 1: Statistical Correction (Bracken)**
+- **Input**: Kraken2 classification results
+- **Process**: Statistical model to correct read assignments
+- **Output**: Corrected read counts (`new_est_reads`)
+- **Improvement**: ~8% accuracy increase (90% → 98%)
+
+**Step 2: Standardization (Our Scripts)**
+- **Input**: Bracken-corrected read counts
+- **Process**: Calculate RPM and RPKM metrics
+- **Output**: Standardized abundance values
+
+### For Long-read Data
+
+- **Direct calculation**: Kraken2 results → RPM/RPKM
+- **No Bracken needed**: Long reads already accurate (>95%)
+
+---
+
+## Slide 8: Abundance Metrics
 
 ### RPM (Reads Per Million) - Primary Metric
 
 **Definition**: Relative abundance normalized to total reads
 
 **Formula**: `RPM = (viral reads / total reads) × 1,000,000`
+
+**Data Source**:
+- Short-read: Uses Bracken-corrected read counts (if available)
+- Long-read: Uses Kraken2 direct read counts
 
 **Use Cases**:
 - Compare same virus across different samples
@@ -144,7 +175,7 @@ bracken,Viral_ref,";-r 150",/path/to/kraken2_database
 
 ---
 
-## Slide 8: Output Structure
+## Slide 9: Output Structure
 
 ### Generated Results
 
@@ -170,7 +201,7 @@ results_viral_*/
 
 ---
 
-## Slide 9: Performance & Accuracy
+## Slide 10: Performance & Accuracy
 
 ### Classification Accuracy
 
@@ -192,7 +223,7 @@ results_viral_*/
 
 ---
 
-## Slide 10: Real-World Results
+## Slide 11: Real-World Results
 
 ### Example Analysis: Environmental Sample
 
@@ -210,7 +241,7 @@ results_viral_*/
 
 ---
 
-## Slide 11: Advantages
+## Slide 12: Advantages
 
 ### 1. Automation
 
@@ -232,7 +263,7 @@ results_viral_*/
 
 ---
 
-## Slide 12: Use Cases
+## Slide 13: Use Cases
 
 ### Clinical Applications
 
@@ -254,7 +285,7 @@ results_viral_*/
 
 ---
 
-## Slide 13: Comparison with Alternatives
+## Slide 14: Comparison with Alternatives
 
 ### Why This Tool?
 
@@ -268,7 +299,7 @@ results_viral_*/
 
 ---
 
-## Slide 14: Technical Highlights
+## Slide 15: Technical Highlights
 
 ### Robust Configuration
 
@@ -285,7 +316,7 @@ results_viral_*/
 
 ---
 
-## Slide 15: Future Enhancements
+## Slide 16: Future Enhancements
 
 ### Planned Improvements
 
@@ -303,7 +334,7 @@ results_viral_*/
 
 ---
 
-## Slide 16: Getting Started
+## Slide 17: Getting Started
 
 ### Quick Start
 
@@ -333,7 +364,7 @@ sbatch submit_long.sh
 
 ---
 
-## Slide 17: Validation & Testing
+## Slide 18: Validation & Testing
 
 ### Tested Scenarios
 
@@ -351,7 +382,7 @@ sbatch submit_long.sh
 
 ---
 
-## Slide 18: Summary
+## Slide 19: Summary
 
 ### Key Takeaways
 
@@ -370,7 +401,7 @@ sbatch submit_long.sh
 
 ---
 
-## Slide 19: Questions & Discussion
+## Slide 20: Questions & Discussion
 
 ### Contact & Support
 
@@ -386,7 +417,7 @@ sbatch submit_long.sh
 
 ---
 
-## Slide 20: Appendix - Technical Details
+## Slide 21: Appendix - Technical Details
 
 ### Workflow Components
 
@@ -396,9 +427,12 @@ sbatch submit_long.sh
 - NanoPlot: Quality metrics (long-read)
 - Porechop: Adapter removal (long-read)
 
-**Classification**:
+**Classification & Correction**:
 - Kraken2: k-mer based taxonomic classification
-- Bracken: Statistical abundance estimation (short-read)
+- Bracken: Statistical read count correction (short-read, improves accuracy ~8%)
+
+**Abundance Calculation**:
+- Custom Python scripts: Calculate RPM/RPKM from corrected read counts
 
 **Post-processing**:
 - Custom Python scripts: RPM/RPKM calculation
