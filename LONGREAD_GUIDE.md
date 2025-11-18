@@ -1,6 +1,6 @@
 # Long-read Data Analysis Guide (Nanopore & PacBio)
 
-## 🔬 Advantages of Long-read Data
+## Advantages of Long-read Data
 
 Long-read sequencing (Nanopore, PacBio) offers unique advantages for viral metagenomic analysis.
 
@@ -17,7 +17,7 @@ Long-read sequencing (Nanopore, PacBio) offers unique advantages for viral metag
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### One-command Execution
 
@@ -42,7 +42,7 @@ results_viral_long/
 
 ---
 
-## 📊 Abundance Calculation Method
+## Abundance Calculation Method
 
 ### Data Flow
 
@@ -79,7 +79,7 @@ Long-read advantage:
 
 ---
 
-## ⚙️ Configuration Essentials
+## Configuration Essentials
 
 ### Core Configuration (nextflow_long.config)
 
@@ -116,7 +116,7 @@ sample1,run1,OXFORD_NANOPORE,/path/to/reads.fastq.gz,,
 
 ---
 
-## 📈 Data Quality Assessment
+## Data Quality Assessment
 
 ### Typical Metrics
 
@@ -134,7 +134,7 @@ sample1,run1,OXFORD_NANOPORE,/path/to/reads.fastq.gz,,
 
 ---
 
-## 🆚 Nanopore vs PacBio
+## Nanopore vs PacBio
 
 ### Technical Differences
 
@@ -169,7 +169,7 @@ longread_qc_skipqualityfilter = true   // Can skip
 
 ---
 
-## 💡 Optimization Suggestions
+## Optimization Suggestions
 
 ### 1. Database Selection
 
@@ -208,7 +208,7 @@ Long reads can accurately classify to various levels:
 
 ---
 
-## 📊 Results Interpretation
+## Results Interpretation
 
 ### Example Data Interpretation
 
@@ -236,7 +236,7 @@ Mainly detected:
 
 ---
 
-## 🔍 Frequently Asked Questions
+## Frequently Asked Questions
 
 ### Q1: Do long-read data need Bracken database?
 
@@ -275,7 +275,7 @@ zcat your_file.fastq.gz | awk 'NR%4==2 {print length($0)}' | head -1000 | \
 
 ---
 
-## 🎯 Summary
+## Summary
 
 ### Long-read Data Advantages
 
@@ -296,4 +296,5 @@ Output location: results_viral_long/abundance/
 ---
 
 **More information?** See README.md or ABUNDANCE_USAGE.md
+
 
