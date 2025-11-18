@@ -1,12 +1,12 @@
 # Short-read Abundance Calculation Guide (Illumina)
 
-## 🎯 Overview
+## Overview
 
 Short-read (Illumina) abundance calculation prioritizes **Bracken** for statistical correction. If Bracken is unavailable, automatically falls back to Kraken2-based calculation.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Automatic Execution (Recommended)
 
@@ -25,7 +25,7 @@ sbatch submit_short.sh
 
 ---
 
-## 📊 Two Calculation Methods
+## Two Calculation Methods
 
 ### Method 1: Standard Method (Recommended, More Accurate)
 
@@ -77,7 +77,7 @@ RPM/RPKM values (accuracy ~90%)
 
 ---
 
-## 🔄 Smart Workflow Dispatch
+## Smart Workflow Dispatch
 
 ### Automatic Selection Logic
 
@@ -103,7 +103,7 @@ After submit_short.sh runs:
 
 ---
 
-## 📋 Sample Sheet Configuration
+## Sample Sheet Configuration
 
 ### Basic Format
 
@@ -123,7 +123,7 @@ llnl_66ce4dde,run1,ILLUMINA,/path/to/R1.fastq.gz,/path/to/R2.fastq.gz,
 
 ---
 
-## ⚙️ Configuration Details
+## Configuration Details
 
 ### Core Parameters (nextflow_short.config)
 
@@ -168,7 +168,7 @@ bracken_readlen   = 150    // Read length (match your data)
 
 ---
 
-## 📈 Abundance Results
+## Abundance Results
 
 ### Output Files
 
@@ -193,7 +193,7 @@ Note: Total reads shown is from Bracken classification, not raw sequencing reads
 
 ---
 
-## 🔍 Bracken vs Non-Bracken Comparison
+## Bracken vs Non-Bracken Comparison
 
 ### Practical Impact
 
@@ -222,7 +222,7 @@ For **human virus/clinical samples**:
 
 ---
 
-## 💡 Optimization Suggestions
+## Optimization Suggestions
 
 ### 1. Database Selection
 
@@ -260,7 +260,7 @@ Ensure `bracken_readlen` matches actual read length (or use closest value).
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Issue: Empty abundance directory
 
@@ -296,7 +296,7 @@ awk -F'\t' 'NR==1 || $6 >= 5' results_viral_short/abundance/all_samples_abundanc
 
 ---
 
-## 📚 Data Analysis Examples
+## Data Analysis Examples
 
 ### Basic Statistics
 
@@ -334,7 +334,7 @@ ggplot(top10, aes(x=reorder(Species, total_rpm), y=total_rpm)) +
 
 ---
 
-## 🎓 Best Practices
+## Best Practices
 
 ### 1. Data Filtering
 
@@ -358,7 +358,7 @@ awk -F'\t' 'NR==1 || $6 >= 5' all_samples_abundance_summary.tsv > filtered.tsv
 
 ---
 
-## 🎯 Summary
+## Summary
 
 ### Short-read Data Analysis Workflow
 
@@ -383,4 +383,5 @@ sbatch submit_short.sh  →  Auto analysis  →  results_viral_short/abundance/
 ---
 
 **More information?** See README.md or ABUNDANCE_USAGE.md
+
 
