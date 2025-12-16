@@ -26,10 +26,10 @@ sbatch submit_long.sh
 ```
 
 **Automatically completes**:
-1. ✅ Long-read QC (NanoPlot, Porechop)
-2. ✅ Kraken2 viral classification
-3. ✅ Automatic RPM/RPKM abundance calculation
-4. ✅ Generate comprehensive reports
+1. Long-read QC (NanoPlot, Porechop)
+2. Kraken2 viral classification
+3. Automatic RPM/RPKM abundance calculation
+4. Generate comprehensive reports
 
 **Output**:
 ```
@@ -73,9 +73,9 @@ Long-read advantage:
 ```
 
 **Conclusion**:
-- ✅ Kraken2 classification is already accurate enough for long reads
-- ✅ No need for additional statistical correction
-- ✅ Saves database build time (0 vs 2-6 hours)
+- Kraken2 classification is already accurate enough for long reads
+- No need for additional statistical correction
+- Saves database build time (0 vs 2-6 hours)
 
 ---
 
@@ -222,10 +222,10 @@ Highest RPM: 400 (Pulverervirus PFR1)
 ```
 
 **Analysis**:
-- ✅ Reasonable sequencing depth (250K reads sufficient for long reads)
-- ✅ Extremely high viral diversity (614 species)
-- ✅ Primarily bacteriophages (environmental/marine sample characteristics)
-- ✅ Excellent data quality
+- Reasonable sequencing depth (250K reads sufficient for long reads)
+- Extremely high viral diversity (614 species)
+- Primarily bacteriophages (environmental/marine sample characteristics)
+- Excellent data quality
 
 ### Virus Types
 
@@ -296,6 +296,7 @@ Output location: results_viral_long/abundance/
 ---
 
 **More information?** See README.md or ABUNDANCE_USAGE.md
+
 
 
 
