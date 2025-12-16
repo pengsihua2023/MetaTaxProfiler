@@ -279,11 +279,11 @@ zcat your_file.fastq.gz | awk 'NR%4==2 {print length($0)}' | head -1000 | \
 
 ### Long-read Data Advantages
 
-1. ✅ **No Bracken database needed** - Ready immediately
-2. ✅ **More accurate classification** - Direct to species level
-3. ✅ **Simple configuration** - Only Kraken2 database required
-4. ✅ **Strong discovery capability** - Suitable for identifying novel viruses
-5. ✅ **Automatic abundance calculation** - One-click complete analysis
+1. **No Bracken database needed** - Ready immediately
+2. **More accurate classification** - Direct to species level
+3. **Simple configuration** - Only Kraken2 database required
+4. **Strong discovery capability** - Suitable for identifying novel viruses
+5. **Automatic abundance calculation** - One-click complete analysis
 
 ### Workflow Summary
 
@@ -296,5 +296,6 @@ Output location: results_viral_long/abundance/
 ---
 
 **More information?** See README.md or ABUNDANCE_USAGE.md
+
 
 
