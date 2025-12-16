@@ -83,10 +83,10 @@ RPM = (250 / 5,000,000) × 1,000,000 = 50
 Despite different absolute read counts, identical RPM → consistent relative viral abundance
 
 **Applications**:
-- ✅ Compare same virus across samples
-- ✅ Eliminate sequencing depth differences
-- ✅ Most commonly used normalization metric
-- ✅ Standard metric for relative abundance comparison
+- Compare same virus across samples
+- Eliminate sequencing depth differences
+- Most commonly used normalization metric
+- Standard metric for relative abundance comparison
 
 **Important**: RPM is a **relative abundance** metric, not absolute abundance. It represents the proportion of reads assigned to a virus relative to total reads.
 
@@ -113,14 +113,14 @@ RPKM = 3000 / (150 × 10) = 2
 **Interpretation**: Despite same read count, virus X has higher relative viral load (accounting for genome size)
 
 **Applications**:
-- ✅ Compare relative viral loads between different viruses
-- ✅ Eliminate genome size effects
-- ✅ Fair comparison across viruses with different genome sizes
+- Compare relative viral loads between different viruses
+- Eliminate genome size effects
+- Fair comparison across viruses with different genome sizes
 
 **Limitations**:
-- ⚠️ Requires known genome length
-- ⚠️ Unknown viruses show "NA"
-- ⚠️ Still a relative abundance metric, not absolute abundance
+- Requires known genome length
+- Unknown viruses show "NA"
+- Still a relative abundance metric, not absolute abundance
 
 **Note**: Both RPM and RPKM are **relative abundance** metrics. For absolute abundance (actual viral particle counts), additional calibration methods such as spike-in controls or qPCR are required.
 
@@ -348,5 +348,6 @@ plt.savefig('top_viruses.png', dpi=300)
 ---
 
 **Need more help?** See README.md or related guide documentation.
+
 
 
