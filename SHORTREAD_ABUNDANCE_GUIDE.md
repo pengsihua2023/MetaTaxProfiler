@@ -15,11 +15,11 @@ sbatch submit_short.sh
 ```
 
 **Automatically completes**:
-1. ✅ QC (FastQC, fastp)
-2. ✅ Kraken2 viral classification
-3. ✅ Bracken abundance estimation (if database available)
-4. ✅ **Automatic RPM/RPKM calculation**
-5. ✅ Generate MultiQC report
+1. QC (FastQC, fastp)
+2. Kraken2 viral classification
+3. Bracken abundance estimation (if database available)
+4. **Automatic RPM/RPKM calculation**
+5. Generate MultiQC report
 
 **Output**: `results_viral_short/abundance/`
 
@@ -215,10 +215,10 @@ For **human virus/clinical samples**:
 
 ### When Bracken is Optional
 
-- ✅ Environmental samples (your case)
-- ✅ Exploratory research
-- ✅ Viral diversity analysis
-- ✅ Rapid screening
+- Environmental samples (your case)
+- Exploratory research
+- Viral diversity analysis
+- Rapid screening
 
 ---
 
@@ -368,10 +368,10 @@ sbatch submit_short.sh  →  Auto analysis  →  results_viral_short/abundance/
 
 ### Key Points
 
-1. ✅ **Automated** - Fully automatic after submission
-2. ✅ **Smart dispatch** - Automatically selects best calculation method
-3. ✅ **Robust** - Succeeds regardless of Bracken availability
-4. ✅ **Standardized abundance** - RPM/RPKM ready for publication
+1. **Automated** - Fully automatic after submission
+2. **Smart dispatch** - Automatically selects best calculation method
+3. **Robust** - Succeeds regardless of Bracken availability
+4. **Standardized abundance** - RPM/RPKM ready for publication
 
 ### Bracken Optionality
 
@@ -383,5 +383,6 @@ sbatch submit_short.sh  →  Auto analysis  →  results_viral_short/abundance/
 ---
 
 **More information?** See README.md or ABUNDANCE_USAGE.md
+
 
 
